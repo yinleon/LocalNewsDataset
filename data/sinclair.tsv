@@ -1,0 +1,612 @@
+city	geo	network	state	station	website	broadcaster	source	collection_date
+Abilene	Abilene-Sweetwater	cw	TX	KTXS-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Abilene	Abilene-Sweetwater	abc	TX	KTXS		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Abilene	Abilene-Sweetwater	metv	TX	KTES-LD		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Abilene	Abilene-Sweetwater	metv	TX	KTXS-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Albany	Albany, GA	tbd	GA	WFXL-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Albany	Albany, GA	fox	GA	WFXL	http://www.wfxl.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Albany	Albany, GA	comet	GA	WFXL-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Albany	Albany, GA	charge!	GA	WFXL-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Albany	AlbanySchenectadyTroy, NY	cbs	NY	WRGB	http://www.cbs6albany.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Albany	AlbanySchenectadyTroy, NY	tbd	NY	WRGB-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Albany	AlbanySchenectadyTroy, NY	comet	NY	WRGB-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Albany	AlbanySchenectadyTroy, NY	stadium	NY	WCWN-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Albany	AlbanySchenectadyTroy, NY	charge!	NY	WCWN-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Albany	AlbanySchenectadyTroy, NY	cw	NY	WCWN	http://www.cwalbany.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Albany	AlbanySchenectadyTroy, NY	cbs	NY	WCWN-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Amarillo	Amarillo, TX	stadium	TX	KVII-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Amarillo	Amarillo, TX	cw	TX	KVII-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Amarillo	Amarillo, TX	abc	TX	KVII	http://abc7amarillo.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Amarillo	Amarillo, TX	comet	TX	KVII-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Amarillo	Amarillo, TX	stadium	TX	KVIH-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Amarillo	Amarillo, TX	abc	TX	KVIH	http://abc7amarillo.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Amarillo	Amarillo, TX	cw	TX	KVIH-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Amarillo	Amarillo, TX	comet	TX	KVIH-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Austin	Austin, TX	telemundo	TX	KEYE-2	http://telemundoaustin.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Austin	Austin, TX	cbs	TX	KEYE	http://www.cbsaustin.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Bakersfield	Bakersfield, CA	stadium	CA	KBFX-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Bakersfield	Bakersfield, CA	comet	CA	KBFX-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Bakersfield	Bakersfield, CA	fox	CA	KBAK-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Bakersfield	Bakersfield, CA	tbd	CA	KBFX-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Bakersfield	Bakersfield, CA	charge!	CA	KBAK-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Bakersfield	Bakersfield, CA	cbs	CA	KBAK	http://bakersfieldnow.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Bakersfield	Bakersfield, CA	fox	CA	KBFX	http://www.bakersfieldnow.com/kbfx	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Baltimore	Baltimore, MD	fox	MD	WBFF	http://www.foxbaltimore.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Baltimore	Baltimore, MD	cw	MD	WNUV	http://www.cwbaltimore.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Baltimore	Baltimore, MD	mytv	MD	WBFF-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Baltimore	Baltimore, MD	temp	MD	WBFF-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Baltimore	Baltimore, MD	antenna	MD	WNUV-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Baltimore	Baltimore, MD	tbd	MD	WBFF-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Baltimore	Baltimore, MD	comet	MD	WNUV-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Baltimore	Baltimore, MD	tbd	MD	WUTB	http://www.mytvbaltimore.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Baltimore	Baltimore, MD	charge!	MD	WNUV-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Baltimore	Baltimore, MD	temp	MD	WUTB-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Baltimore	Baltimore, MD	temp	MD	WUTB-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Baltimore	Baltimore, MD	temp	MD	WUTB-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Beaumont	BeaumontPort Arthur, TX	stadium	TX	KBTV-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Beaumont	BeaumontPort Arthur, TX	cbs	TX	KFDM	http://www.kfdm.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Beaumont	BeaumontPort Arthur, TX	cw	TX	KFDM-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Beaumont	BeaumontPort Arthur, TX	charge!	TX	KFDM-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Beaumont	BeaumontPort Arthur, TX	comet	TX	KBTV-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Beaumont	BeaumontPort Arthur, TX	tbd	TX	KBTV-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Beaumont	BeaumontPort Arthur, TX	fox	TX	KBTV	http://fox4beaumont.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Birmingham	Birmingham, AL	mytv	AL	WABM	http://www.wabm68.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Birmingham	Birmingham, AL	stadium	AL	WBMA-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Birmingham	Birmingham, AL	charge!	AL	WBMA-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Birmingham	Birmingham, AL	local	AL	WBMA-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Birmingham	Birmingham, AL	abc	AL	WBMA	http://www.abc3340.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Birmingham	Birmingham, AL	local	AL	WABM-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Birmingham	Birmingham, AL	abc	AL	WABM-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Birmingham	Birmingham, AL	cw	AL	WDBB	http://www.wtto21.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Birmingham	Birmingham, AL	comet	AL	WTTO-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Birmingham	Birmingham, AL	antenna	AL	WTTO-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Birmingham	Birmingham, AL	cw	AL	WTTO	http://www.wtto21.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Birmingham	Birmingham, AL	local	AL	WDBB-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Birmingham	Birmingham, AL	abc	AL	WDBB-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Birmingham	Birmingham, AL	tbd	AL	WTTO-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Boise	Boise, ID	tbd	ID	KYUU-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Boise	Boise, ID	charge!	ID	KBOI-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Boise	Boise, ID	cw	ID	KBOI-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Boise	Boise, ID	stadium	ID	KYUU-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Boise	Boise, ID	cw	ID	KYUU	http://www.cwtreasurevalley.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Boise	Boise, ID	cbs	ID	KBOI	http://www.kboi2.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Boise	Boise, ID	comet	ID	KYUU-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Buffalo	Buffalo, NY	stadium	NY	WNYO-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Buffalo	Buffalo, NY	mytv	NY	WNYO	http://www.mytvbuffalo.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Buffalo	Buffalo, NY	fox	NY	WUTV	http://www.wutv29.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Buffalo	Buffalo, NY	comet	NY	WNYO-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Buffalo	Buffalo, NY	charge!	NY	WUTV-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Buffalo	Buffalo, NY	get	NY	WNYO-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Buffalo	Buffalo, NY	tbd	NY	WUTV-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Bozeman	Butte-Bozeman	metv	MT	KTVM-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Bozeman	Butte-Bozeman	movies!	MT	KTVM-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Bozeman	Butte-Bozeman	nbc	MT	KTVM		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Bozeman	Butte-Bozeman	metv	MT	KDBZ-CD-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Bozeman	Butte-Bozeman	nbc	MT	KDBZ-CD		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Bozeman	Butte-Bozeman	movies!	MT	KDBZ-CD-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Cedar Rapids	Cedar RapidsWaterlooDubuque, IA	stadium	IA	KFXA-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Cedar Rapids	Cedar RapidsWaterlooDubuque, IA	tbd	IA	KFXA-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Cedar Rapids	Cedar RapidsWaterlooDubuque, IA	cbs	IA	KGAN	http://www.cbs2iowa.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Cedar Rapids	Cedar RapidsWaterlooDubuque, IA	get	IA	KGAN-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Cedar Rapids	Cedar RapidsWaterlooDubuque, IA	comet	IA	KGAN-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Cedar Rapids	Cedar RapidsWaterlooDubuque, IA	charge!	IA	KFXA-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Cedar Rapids	Cedar RapidsWaterlooDubuque, IA	fox	IA	KFXA	http://fox28iowa.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Champaign	ChampaignSpringfieldDecatur, IL	comet	IL	WICD-2	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Champaign	ChampaignSpringfieldDecatur, IL	tbd	IL	WICD-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Champaign	ChampaignSpringfieldDecatur, IL	abc	IL	WICD	http://www.wicd15.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Champaign	ChampaignSpringfieldDecatur, IL	tbd	IL	WICS-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Champaign	ChampaignSpringfieldDecatur, IL	cw	IL	WBUI	http://www.cw23tv.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Champaign	ChampaignSpringfieldDecatur, IL	abc	IL	WICS	http://www.wics.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Champaign	ChampaignSpringfieldDecatur, IL	charge!	IL	WICD-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Champaign	ChampaignSpringfieldDecatur, IL	fox	IL	WRSP	http://www.foxillinois.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Champaign	ChampaignSpringfieldDecatur, IL	fox	IL	WCCU	http://www.foxillinois.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Champaign	ChampaignSpringfieldDecatur, IL	stadium	IL	WBUI-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Champaign	ChampaignSpringfieldDecatur, IL	thistv	IL	WBUI-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Champaign	ChampaignSpringfieldDecatur, IL	metv	IL	WCCU-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Champaign	ChampaignSpringfieldDecatur, IL	antenna	IL	WCCU-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Champaign	ChampaignSpringfieldDecatur, IL	comet	IL	WICS-2	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Champaign	ChampaignSpringfieldDecatur, IL	metv	IL	WRSP-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Champaign	ChampaignSpringfieldDecatur, IL	antenna	IL	WRSP-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Champaign	ChampaignSpringfieldDecatur, IL	charge!	IL	WICS-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Charleston	Charleston, SC	abc	SC	WCIV-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Charleston	Charleston, SC	metv	SC	WCIV-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Charleston	Charleston, SC	mytv	SC	WCIV	http://www.abcnews4.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Charleston	CharlestonHuntington, WV	stadium	WV	WVAH-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Charleston	CharlestonHuntington, WV	comet	WV	WVAH-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Charleston	CharlestonHuntington, WV	fox	WV	WVAH	http://www.wvah.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Charleston	CharlestonHuntington, WV	antenna	WV	WCHS-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Charleston	CharlestonHuntington, WV	tbd	WV	WCHS-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Charleston	CharlestonHuntington, WV	abc	WV	WCHS	http://www.wchstv.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Charleston	CharlestonHuntington, WV	charge!	WV	WCHS-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Chattanooga	Chattanooga, TN	tbd	TN	WTVC-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Chattanooga	Chattanooga, TN	fox	TN	WTVC-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Chattanooga	Chattanooga, TN	abc	TN	WTVC	http://www.foxchattanooga.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Chattanooga	Chattanooga, TN	charge!	TN	WFLI-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Chattanooga	Chattanooga, TN	mytv	TN	WFLI-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Chattanooga	Chattanooga, TN	metv	TN	WFLI-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Chattanooga	Chattanooga, TN	cw	TN	WFLI	http://chattanoogacw.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Chico	Chico-Redding	cozitv	CA	KRVU-LD-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Chico	Chico-Redding	univision	CA	KRVU-LD-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Chico	Chico-Redding	univision	CA	KUCO-LP		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Chico	Chico-Redding	fox	CA	KRCR-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Chico	Chico-Redding	fox	CA	KCVU		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Chico	Chico-Redding	abc	CA	KRCR		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Chico	Chico-Redding	unimas	CA	KKTF-LD		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Chico	Chico-Redding	cozitv	CA	KCVU-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Chico	Chico-Redding	movies!	CA	KRCR-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Chico	Chico-Redding	metv	CA	KRCR-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Chico	Chico-Redding	mytv	CA	KRVU-LD		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Cincinnati	Cincinnati, OH	antenna	OH	WSTR-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Cincinnati	Cincinnati, OH	mytv	OH	WSTR	http://www.star64.tv	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Cincinnati	Cincinnati, OH	cbs	OH	WKRC	http://www.local12.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Cincinnati	Cincinnati, OH	comet	OH	WSTR-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Cincinnati	Cincinnati, OH	cw	OH	WKRC-2	http://cwcincinnati.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Cincinnati	Cincinnati, OH	stadium	OH	WKRC-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Cincinnati	Cincinnati, OH	tbd	OH	WSTR-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Columbia	Columbia, SC	comet	SC	WACH-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Columbia	Columbia, SC	tbd	SC	WACH-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Columbia	Columbia, SC	fox	SC	WACH	http://www.wach.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Columbia	Columbia, SC	stadium	SC	WACH-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Columbia	ColumbiaJefferson City, MO	comet	MO	KRCG-2	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Columbia	ColumbiaJefferson City, MO	tbd	MO	KRCG-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Columbia	ColumbiaJefferson City, MO	charge!	MO	KRCG-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Columbia	ColumbiaJefferson City, MO	cbs	MO	KRCG	http://krcgtv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Columbus	Columbus, OH	stadium	OH	WTTE-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Columbus	Columbus, OH	tbd	OH	WTTE-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Columbus	Columbus, OH	abc	OH	WSYX	http://www.abc6onyourside.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Columbus	Columbus, OH	cw	OH	WWHO	http://www.cwcolumbus.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Columbus	Columbus, OH	mytv/thistv	OH	WSYX-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Columbus	Columbus, OH	antenna	OH	WSYX-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Columbus	Columbus, OH	fox	OH	WTTE	http://www.myfox28columbus.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Columbus	Columbus, OH	charge!	OH	WWHO-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Columbus	Columbus, OH	comet	OH	WWHO-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Corpus Christi	Corpus Christi, TX	temp	TX	KXPX	http://www.sbgi.net	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Corpus Christi	Corpus Christi, TX	fox	TX	KSCC	http://fox38corpuschristi.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Corpus Christi	Corpus Christi, TX	mytv	TX	KSCC-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Corpus Christi	Corpus Christi, TX	tbd	TX	KSCC-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Corpus Christi	Corpus Christi, TX	temp	TX	KTOV	http://www.sbgi.net	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Dayton	Dayton, OH	stadium	OH	WKEF-2	http://mytvdayton.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Dayton	Dayton, OH	abc	OH	WKEF	http://www.abc22now.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Dayton	Dayton, OH	fox	OH	WRGT	http://www.fox45now.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Dayton	Dayton, OH	mytv/thistv	OH	WRGT-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Dayton	Dayton, OH	charge!	OH	WRGT-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Dayton	Dayton, OH	tbd	OH	WKEF-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Dayton	Dayton, OH	comet	OH	WRGT-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Dayton	Dayton, OH	antenna	OH	WKEF-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Des Moines	Des MoinesAmes, IA	charge!	IA	KDSM-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Des Moines	Des MoinesAmes, IA	tbd	IA	KDSM-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Des Moines	Des MoinesAmes, IA	fox	IA	KDSM	http://www.kdsm.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Des Moines	Des MoinesAmes, IA	comet	IA	KDSM-2	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+El Paso	El Paso, TX	fox	TX	KFOX	http://www.kfoxtv.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+El Paso	El Paso, TX	comet	TX	KFOX-2	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+El Paso	El Paso, TX	charge!	TX	KFOX-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+El Paso	El Paso, TX	cbs	TX	KDBC	http://www.cbs4local.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+El Paso	El Paso, TX	stadium	TX	KFOX-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+El Paso	El Paso, TX	tbd	TX	KDBC-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+El Paso	El Paso, TX	metv	TX	KDBC-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Eugene	Eugene, OR	tbd	OR	KCBY-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Eugene	Eugene, OR	cbs	OR	KCBY	http://www.kcby.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Eugene	Eugene, OR	comet	OR	KTCW-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Eugene	Eugene, OR	charge!	OR	KPIC-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Eugene	Eugene, OR	comet	OR	KMTR-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Eugene	Eugene, OR	cw	OR	KTCW-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Eugene	Eugene, OR	cw	OR	KMTR-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Eugene	Eugene, OR	tbd	OR	KVAL-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Eugene	Eugene, OR	nbc	OR	KMCB	http://www.sbgi.net	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Eugene	Eugene, OR	cbs	OR	KVAL	http://www.kval.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Eugene	Eugene, OR	cw	OR	KMCB-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Eugene	Eugene, OR	comet	OR	KMCB-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Eugene	Eugene, OR	nbc	OR	KMTR	http://www.kmtr.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Eugene	Eugene, OR	charge!	OR	KVAL-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Eugene	Eugene, OR	charge!	OR	KCBY-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Eugene	Eugene, OR	nbc	OR	KTCW	http://www.sbgi.net	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Eugene	Eugene, OR	cbs	OR	KPIC	http://www.kpic.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Eugene	Eugene, OR	tbd	OR	KPIC-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Eureka	Eureka	metv	CA	KAEF-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Eureka	Eureka	cw	CA	KECA-LD		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Eureka	Eureka	abc	CA	KAEF		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Eureka	Eureka	movies!	CA	KAEF-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Eureka	Eureka	cozitv	CA	KBVU-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Eureka	Eureka	mytv	CA	KECA-LD-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Eureka	Eureka	fox	CA	KBVU		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Eureka	Eureka	univision	CA	KEUV-LP		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Flint	FlintSaginawBay City, MI	nbc	MI	WEYI	http://nbc25news.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Flint	FlintSaginawBay City, MI	charge!	MI	WBSF-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Flint	FlintSaginawBay City, MI	cw	MI	WEYI-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Flint	FlintSaginawBay City, MI	antenna	MI	WSMH-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Flint	FlintSaginawBay City, MI	tbd	MI	WEYI-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Flint	FlintSaginawBay City, MI	fox	MI	WSMH	http://www.wsmh.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Flint	FlintSaginawBay City, MI	stadium	MI	WSMH-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Flint	FlintSaginawBay City, MI	comet	MI	WSMH-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Flint	FlintSaginawBay City, MI	cw	MI	WBSF	http://www.thecw46.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Flint	FlintSaginawBay City, MI	nbc	MI	WBSF-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Myrtle Beach	FlorenceMyrtle Beach, SC	tbd	SC	WPDE-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Myrtle Beach	FlorenceMyrtle Beach, SC	cw	SC	WWMB	http://wpde.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Myrtle Beach	FlorenceMyrtle Beach, SC	cw	SC	WWMB-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Myrtle Beach	FlorenceMyrtle Beach, SC	stadium	SC	WWMB-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Myrtle Beach	FlorenceMyrtle Beach, SC	abc	SC	WPDE	http://wpde.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Myrtle Beach	FlorenceMyrtle Beach, SC	local	SC	WPDE-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Myrtle Beach	FlorenceMyrtle Beach, SC	comet	SC	WPDE-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Fresno	FresnoVisalia, CA	fox	CA	KFRE-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Fresno	FresnoVisalia, CA	cw	CA	KFRE	http://www.kmph.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Fresno	FresnoVisalia, CA	charge!	CA	KFRE-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Fresno	FresnoVisalia, CA	tbd	CA	KFRE-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Fresno	FresnoVisalia, CA	fox	CA	KMPH-CD	http://www.kmph-kfre.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Fresno	FresnoVisalia, CA	thistv	CA	KMPH-CD-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Fresno	FresnoVisalia, CA	stadium	CA	KMPH-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Fresno	FresnoVisalia, CA	thistv	CA	KMPH-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Fresno	FresnoVisalia, CA	comet	CA	KMPH-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Fresno	FresnoVisalia, CA	stadium	CA	KMPH-CD-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Fresno	FresnoVisalia, CA	comet	CA	KMPH-CD-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Fresno	FresnoVisalia, CA	fox	CA	KMPH	http://www.kmph.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Gainesville	Gainesville, FL	charge!	FL	WNBW-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Gainesville	Gainesville, FL	nbc	FL	WNBW	http://mycbs4.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Gainesville	Gainesville, FL	antenna	FL	WYME-CD-1	http://www.sbgi.net	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Gainesville	Gainesville, FL	comet	FL	WNBW-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Gainesville	Gainesville, FL	cbs	FL	WGFL	http://mycbs4.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Gainesville	Gainesville, FL	antenna	FL	WNBW-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Gainesville	Gainesville, FL	mytv	FL	WGFL-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Gainesville	Gainesville, FL	tbd	FL	WGFL-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Grand Rapids	Grand RapidsKalamazooBattle Creek, MI	cw	MI	WWMT-2	http://cw7michigan.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Grand Rapids	Grand RapidsKalamazooBattle Creek, MI	comet	MI	WWMT-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Grand Rapids	Grand RapidsKalamazooBattle Creek, MI	cbs	MI	WWMT	http://www.wwmt.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Green Bay	Green BayAppleton, WI	charge!	WI	WCWF-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Green Bay	Green BayAppleton, WI	comet	WI	WCWF-2	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Green Bay	Green BayAppleton, WI	fox	WI	WLUK	http://fox11online.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Green Bay	Green BayAppleton, WI	antenna	WI	WLUK-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Green Bay	Green BayAppleton, WI	tbd	WI	WLUK-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Green Bay	Green BayAppleton, WI	cw	WI	WCWF	http://cw14online.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Green Bay	Green BayAppleton, WI	stadium	WI	WCWF-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Greensboro	GreensboroHigh PointWinston Salem, NC	mytv	NC	WMYV	http://www.my48.tv	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Greensboro	GreensboroHigh PointWinston Salem, NC	get	NC	WMYV-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Greensboro	GreensboroHigh PointWinston Salem, NC	comet	NC	WMYV-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Greensboro	GreensboroHigh PointWinston Salem, NC	abc	NC	WXLV	http://www.abc45.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Greensboro	GreensboroHigh PointWinston Salem, NC	stadium	NC	WXLV-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Greensboro	GreensboroHigh PointWinston Salem, NC	tbd	NC	WXLV-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Greensboro	GreensboroHigh PointWinston Salem, NC	charge!	NC	WXLV-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Eastern	Greenville-N.Bern-Washngtn	fox	NC	WYDO		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Eastern	Greenville-N.Bern-Washngtn	bounce	NC	WYDO-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Eastern	Greenville-N.Bern-Washngtn	charge!	NC	WYDO-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Eastern	Greenville-N.Bern-Washngtn	abc	NC	WCTI		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Eastern	Greenville-N.Bern-Washngtn	tbd	NC	WCTI-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Eastern	Greenville-N.Bern-Washngtn	comet	NC	WCTI-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Eastern	Greenville-N.Bern-Washngtn	movies!	NC	WCTI-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Eastern	Greenville-N.Bern-Washngtn	stadium	NC	WYDO-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Greenville	GreenvilleSpartanburg, SC / Asheville, NC / Anderson, SC	mytv	SC	WLOS-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Greenville	GreenvilleSpartanburg, SC / Asheville, NC / Anderson, SC	antenna	SC	WLOS-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Greenville	GreenvilleSpartanburg, SC / Asheville, NC / Anderson, SC	abc	SC	WLOS	http://www.wlos.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Greenville	GreenvilleSpartanburg, SC / Asheville, NC / Anderson, SC	stadium	SC	WLOS-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Greenville	GreenvilleSpartanburg, SC / Asheville, NC / Anderson, SC	mytv	SC	WMYA	http://www.my40.tv	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Greenville	GreenvilleSpartanburg, SC / Asheville, NC / Anderson, SC	charge!	SC	WMYA-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Greenville	GreenvilleSpartanburg, SC / Asheville, NC / Anderson, SC	tbd	SC	WMYA-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Greenville	GreenvilleSpartanburg, SC / Asheville, NC / Anderson, SC	comet	SC	WMYA-2	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Harlingen	HarlingenWeslacoBrownsvilleMcAllen, TX	comet	TX	KGBT-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Harlingen	HarlingenWeslacoBrownsvilleMcAllen, TX	azteca	TX	KGBT-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Harlingen	HarlingenWeslacoBrownsvilleMcAllen, TX	cbs	TX	KGBT	http://www.valleycentral.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Harrisburg	HarrisburgLancasterLebanonYork, PA	comet	PA	WHP-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Harrisburg	HarrisburgLancasterLebanonYork, PA	mytv	PA	WHP-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Harrisburg	HarrisburgLancasterLebanonYork, PA	cw	PA	WHP-3	http://www.cwcentralpa.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Harrisburg	HarrisburgLancasterLebanonYork, PA	cbs	PA	WHP	http://www.local21news.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Johnstown	JohnstownAltoona, PA	tbd	PA	WJAC-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Johnstown	JohnstownAltoona, PA	comet	PA	WJAC-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Johnstown	JohnstownAltoona, PA	metv	PA	WJAC-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Johnstown	JohnstownAltoona, PA	nbc	PA	WJAC	http://www.wjactv.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Las Vegas	Las Vegas, NV	estrella	NV	KSNV-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Las Vegas	Las Vegas, NV	tbd	NV	KVCW-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Las Vegas	Las Vegas, NV	thistv	NV	KVCW-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Las Vegas	Las Vegas, NV	nbc	NV	KSNV	http://www.mynews3.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Las Vegas	Las Vegas, NV	cw	NV	KVCW	http://www.thecwlasvegas.tv	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Las Vegas	Las Vegas, NV	mytv	NV	KVCW-2	http://www.mylvtv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Las Vegas	Las Vegas, NV	stadium	NV	KSNV-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Las Vegas	Las Vegas, NV	charge!	NV	KSNV-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Lexington	Lexington, KY	tbd	KY	WDKY-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Lexington	Lexington, KY	charge!	KY	WDKY-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Lexington	Lexington, KY	comet	KY	WDKY-2	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Lexington	Lexington, KY	fox	KY	WDKY	http://www.foxlexington.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Lincoln	LincolnHastingsKearney, NE	abc	NE	KWNB		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Lincoln	LincolnHastingsKearney, NE	fox	NE	KWNB-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Lincoln	LincolnHastingsKearney, NE	tbd	NE	KHGI-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Lincoln	LincolnHastingsKearney, NE	fox	NE	KHGI-LD-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Lincoln	LincolnHastingsKearney, NE	abc	NE	KWNB-LD		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Lincoln	LincolnHastingsKearney, NE	abc	NE	KHGI-CD		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Lincoln	LincolnHastingsKearney, NE	abc	NE	KHGI-LD		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Lincoln	LincolnHastingsKearney, NE	abc	NE	KHGI	http://www.nebraska.tv/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Lincoln	LincolnHastingsKearney, NE	fox	NE	KFXL	http://www.foxnebraska.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Lincoln	LincolnHastingsKearney, NE	fox	NE	KHGI-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Lincoln	LincolnHastingsKearney, NE	fox	NE	KWNB-LD-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Little Rock	Little RockPine Bluff, AR	charge!	AR	KATV-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Little Rock	Little RockPine Bluff, AR	comet	AR	KATV-2	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Little Rock	Little RockPine Bluff, AR	abc	AR	KATV	http://www.katv.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Little Rock	Little RockPine Bluff, AR	tbd	AR	KATV-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Macon	Macon, GA	fox	GA	WGXA	http://www.wgxa.tv	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Macon	Macon, GA	abc	GA	WGXA-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Macon	Macon, GA	comet	GA	WGXA-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Madison	Madison, WI	fox	WI	WMSN	http://www.fox47.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Madison	Madison, WI	comet	WI	WMSN-2	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Madison	Madison, WI	tbd	WI	WMSN-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Madison	Madison, WI	charge!	WI	WMSN-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Medford	MedfordKlamath Falls, OR	cbs	OR	KTVL	http://www.ktvl.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Medford	MedfordKlamath Falls, OR	cw	OR	KTVL-2	https://www.southernoregoncw.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Medford	MedfordKlamath Falls, OR	comet	OR	KTVL-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Medford	MedfordKlamath Falls, OR	tbd	OR	KTVL-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Milwaukee	Milwaukee, WI	cw	WI	WVTV	http://www.super18tv.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Milwaukee	Milwaukee, WI	comet	WI	WVTV-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Milwaukee	Milwaukee, WI	mytv	WI	WVTV-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Minneapolis	Minneapolis, MN	cw	MN	WUCW	http://www.thecw23.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Minneapolis	Minneapolis, MN	charge!	MN	WUCW-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Minneapolis	Minneapolis, MN	comet	MN	WUCW-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Minneapolis	Minneapolis, MN	tbd	MN	WUCW-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Missoula	Missoula	nbc	MT	KECI		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Missoula	Missoula	nbc	MT	KCFW		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Missoula	Missoula	movies!	MT	KCFW-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Missoula	Missoula	metv	MT	KCFW-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Missoula	Missoula	movies!	MT	KECI-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Missoula	Missoula	metv	MT	KECI-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Mobile	Mobile, AL / Pensacola, FL	comet	AL	WFGX-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Mobile	Mobile, AL / Pensacola, FL	independent	AL	WJTC	http://www.utv44.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Mobile	Mobile, AL / Pensacola, FL	grit	AL	WJTC-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Mobile	Mobile, AL / Pensacola, FL	get	AL	WFGX-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Mobile	Mobile, AL / Pensacola, FL	charge!	AL	WEAR-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Mobile	Mobile, AL / Pensacola, FL	weather	AL	WPMI-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Mobile	Mobile, AL / Pensacola, FL	mytv/thistv	AL	WFGX	http://www.wfgxtv.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Mobile	Mobile, AL / Pensacola, FL	abc	AL	WEAR	http://www.weartv.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Mobile	Mobile, AL / Pensacola, FL	nbc	AL	WPMI	http://www.local15tv.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Mobile	Mobile, AL / Pensacola, FL	stadium	AL	WPMI-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Mobile	Mobile, AL / Pensacola, FL	tbd	AL	WEAR-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Nashville	Nashville, TN	charge!	TN	WNAB-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Nashville	Nashville, TN	mytv	TN	WUXP	http://www.mytv30web.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Nashville	Nashville, TN	get	TN	WUXP-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Nashville	Nashville, TN	stadium	TN	WNAB-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Nashville	Nashville, TN	comet	TN	WUXP-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Nashville	Nashville, TN	cw	TN	WNAB	http://www.cw58.tv	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Nashville	Nashville, TN	antenna	TN	WZTV-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Nashville	Nashville, TN	tbd	TN	WZTV-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Nashville	Nashville, TN	fox	TN	WZTV	http://www.fox17.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Norfolk	NorfolkPortsmouthNewport News, VA	stadium	VA	WTVZ-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Norfolk	NorfolkPortsmouthNewport News, VA	comet	VA	WTVZ-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Norfolk	NorfolkPortsmouthNewport News, VA	mytv	VA	WTVZ	http://www.mytvz.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Norfolk	NorfolkPortsmouthNewport News, VA	tbd	VA	WTVZ-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Oklahoma City	Oklahoma City, OK	charge!	OK	KOKH-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Oklahoma City	Oklahoma City, OK	fox	OK	KOKH	http://www.okcfox.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Oklahoma City	Oklahoma City, OK	comet	OK	KOCB-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Oklahoma City	Oklahoma City, OK	tbd	OK	KOCB-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Oklahoma City	Oklahoma City, OK	stadium	OK	KOKH-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Oklahoma City	Oklahoma City, OK	cw	OK	KOCB	http://www.cwokc.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Omaha	Omaha, NE	tbd	NE	KXVO-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Omaha	Omaha, NE	mytv/thistv	NE	KPTM-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Omaha	Omaha, NE	comet	NE	KPTM-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Omaha	Omaha, NE	stadium	NE	KXVO-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Omaha	Omaha, NE	cw	NE	KXVO	http://www.cw15kxvo.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Omaha	Omaha, NE	charge!	NE	KXVO-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Omaha	Omaha, NE	fox	NE	KPTM	http://www.kptm.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Ottumwa	Ottumwa, IA / Kirksville, MO	abc	IA	KTVO	http://ktvo.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Ottumwa	Ottumwa, IA / Kirksville, MO	cbs	IA	KTVO-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Ottumwa	Ottumwa, IA / Kirksville, MO	comet	IA	KTVO-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Paducah	Paducah-Cape Girard-Harsbg	stadium	KY	WDKA-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Paducah	Paducah-Cape Girard-Harsbg	comet	KY	KBSI-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Paducah	Paducah-Cape Girard-Harsbg	mytv	KY	KBSI-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Paducah	Paducah-Cape Girard-Harsbg	mytv	KY	WDKA	http://www.mywdka.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Paducah	Paducah-Cape Girard-Harsbg	fox	KY	KBSI	http://www.kbsi23.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Paducah	Paducah-Cape Girard-Harsbg	charge!	KY	WDKA-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Paducah	Paducah-Cape Girard-Harsbg	tbd	KY	WDKA-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Peoria	PeoriaBloomington, IL	comet	IL	WHOI		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Pittsburgh	Pittsburgh, PA	comet	PA	WPNT-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Pittsburgh	Pittsburgh, PA	mytv	PA	WPNT	http:// 22thepoint.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Pittsburgh	Pittsburgh, PA	fox	PA	WPGH	http://www.wpgh53.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Pittsburgh	Pittsburgh, PA	stadium	PA	WPNT-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Pittsburgh	Pittsburgh, PA	tbd	PA	WPNT-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Pittsburgh	Pittsburgh, PA	antenna	PA	WPGH-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Pittsburgh	Pittsburgh, PA	charge!	PA	WPGH-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Portland	Portland, OR	univision	OR	KUNP	http://www.kunptv.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Portland	Portland, OR	stadium	OR	KATU-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Portland	Portland, OR	tbd	OR	KUNP-LD-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Portland	Portland, OR	comet	OR	KATU-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Portland	Portland, OR	metv	OR	KATU-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Portland	Portland, OR	tbd	OR	KUNP-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Portland	Portland, OR	charge!	OR	KUNP-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Portland	Portland, OR	charge!	OR	KUNP-LD-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Portland	Portland, OR	univision	OR	KUNP-LD	http://www.kunptv.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Portland	Portland, OR	abc	OR	KATU	http://www.katu.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Portland	PortlandAuburn, ME	tbd	ME	WGME-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Portland	PortlandAuburn, ME	comet	ME	WPFO-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Portland	PortlandAuburn, ME	fox	ME	WPFO	http://www.myfoxmaine.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Portland	PortlandAuburn, ME	stadium	ME	WGME-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Portland	PortlandAuburn, ME	cbs	ME	WGME	http://www.wgme.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Portland	PortlandAuburn, ME	charge!	ME	WPFO-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Providence	Providence-New Bedford	nbc	RI	WJAR	http://www.turnto10.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Providence	Providence-New Bedford	metv	RI	WJAR-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Providence	Providence-New Bedford	comet	RI	WJAR-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Providence	Providence-New Bedford	tbd	RI	WJAR-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Quincy	Quincy, IL / Hannibal, MO / Keokuk, IA	comet	IL	KHQA-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Quincy	Quincy, IL / Hannibal, MO / Keokuk, IA	abc	IL	KHQA-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Quincy	Quincy, IL / Hannibal, MO / Keokuk, IA	cbs	IL	KHQA	http://khqa.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Raleigh Durham	RaleighDurham, NC	comet	NC	WRDC-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Raleigh Durham	RaleighDurham, NC	charge!	NC	WRDC-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Raleigh Durham	RaleighDurham, NC	mytv	NC	WRDC	http://www.myrdctv.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Raleigh Durham	RaleighDurham, NC	cw	NC	WLFL	http://www.raleighcw.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Raleigh Durham	RaleighDurham, NC	stadium	NC	WLFL-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Raleigh Durham	RaleighDurham, NC	antenna	NC	WLFL-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Raleigh Durham	RaleighDurham, NC	tbd	NC	WLFL-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Reno	Reno, NV	stadium	NV	KAME-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Reno	Reno, NV	mytv	NV	KAME	http://www.my21reno.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Reno	Reno, NV	tbd	NV	KRNV-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Reno	Reno, NV	nbc	NV	KRNV	http://www.mynews4.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Reno	Reno, NV	fox	NV	KRXI	http://www.foxreno.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Reno	Reno, NV	thistv	NV	KRNV-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Reno	Reno, NV	charge!	NV	KRXI-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Reno	Reno, NV	grit	NV	KRXI-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Reno	Reno, NV	comet	NV	KAME-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Richmond	RichmondPetersburg, VA	mytv/thistv	VA	WRLH-2	http://www.mytvrichmond.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Richmond	RichmondPetersburg, VA	charge!	VA	WRLH-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Richmond	RichmondPetersburg, VA	fox	VA	WRLH	http://www.foxrichmond.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Richmond	RichmondPetersburg, VA	comet	VA	WRLH-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Roanoke	RoanokeLynchburg, VA	tbd	VA	WSET-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Roanoke	RoanokeLynchburg, VA	comet	VA	WSET-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Roanoke	RoanokeLynchburg, VA	stadium	VA	WSET-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Roanoke	RoanokeLynchburg, VA	abc	VA	WSET	http://www.wset.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Rochester	Rochester, NY	fox	NY	WUHF	http://www.foxrochester.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Rochester	Rochester, NY	comet	NY	WUHF-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Rochester	Rochester, NY	charge!	NY	WHAM-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Rochester	Rochester, NY	tbd	NY	WUHF-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Rochester	Rochester, NY	antenna	NY	WUHF-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Rochester	Rochester, NY	cw	NY	WHAM-2	http://www.cwrochester.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Rochester	Rochester, NY	abc	NY	WHAM	http://www.13wham.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Salt Lake City	Salt Lake City, UT	comet	UT	KENV	http://www.kenvtv.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Salt Lake City	Salt Lake City, UT	cbs	UT	KUTV	http://kutv.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Salt Lake City	Salt Lake City, UT	cbs	UT	KMYU-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Salt Lake City	Salt Lake City, UT	mytv	UT	KMYU	http://www.kmyu.tv	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Salt Lake City	Salt Lake City, UT	charge!	UT	KJZZ-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Salt Lake City	Salt Lake City, UT	tbd	UT	KJZZ-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Salt Lake City	Salt Lake City, UT	comet	UT	KJZZ-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Salt Lake City	Salt Lake City, UT	mytv	UT	KUTV-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Salt Lake City	Salt Lake City, UT	independent	UT	KJZZ		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+San Angelo	San Angelo	metv	TX	KTXE-LD-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+San Angelo	San Angelo	cw	TX	KTXE-LD-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+San Angelo	San Angelo	abc	TX	KTXE-LD		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+San Antonio	San Antonio, TX	fox	TX	KABB	http://www.foxsanantonio.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+San Antonio	San Antonio, TX	comet	TX	KABB-2	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+San Antonio	San Antonio, TX	nbc	TX	WOAI	http://www.news4sanantonio.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+San Antonio	San Antonio, TX	antenna	TX	WOAI-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+San Antonio	San Antonio, TX	stadium	TX	KMYS-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+San Antonio	San Antonio, TX	charge!	TX	WOAI-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+San Antonio	San Antonio, TX	tbd	TX	KABB-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+San Antonio	San Antonio, TX	cw	TX	KMYS	http://www.kmys.tv	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Savannah	Savannah	tbd	GA	WTGS-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Savannah	Savannah	antenna	GA	WTGS-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Savannah	Savannah	comet	GA	WTGS-2	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Savannah	Savannah	fox	GA	WTGS	http://www.foxsavannah.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Seattle	SeattleTacoma, WA	abc	WA	KOMO	http://www.komonews.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Seattle	SeattleTacoma, WA	tbd	WA	KUNS-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Seattle	SeattleTacoma, WA	univision	WA	KUNS	http://www.univisionseattle.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Seattle	SeattleTacoma, WA	charge!	WA	KOMO-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Seattle	SeattleTacoma, WA	comet	WA	KOMO-2	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Seattle	SeattleTacoma, WA	stadium	WA	KUNS-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Sioux City	Sioux City, IA	tbd	IA	KMEG-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Sioux City	Sioux City, IA	charge!	IA	KPTP-LD-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Sioux City	Sioux City, IA	cbs	IA	KMEG	http://www.siouxlandnews.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Sioux City	Sioux City, IA	comet	IA	KMEG-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Sioux City	Sioux City, IA	fox	IA	KPTP-LD	http://www.siouxlandnews.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Sioux City	Sioux City, IA	mytv/thistv	IA	KPTH-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Sioux City	Sioux City, IA	fox	IA	KPTH	http://www.siouxlandnews.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Sioux City	Sioux City, IA	stadium	IA	KBVK-LP-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Sioux City	Sioux City, IA	charge!	IA	KPTH-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Sioux City	Sioux City, IA	stadium	IA	KPTH-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Sioux City	Sioux City, IA	mytv/thistv	IA	KPTP-LD-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Sioux City	Sioux City, IA	stadium	IA	KPTP-LD-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Sioux City	Sioux City, IA	charge!	IA	KBVK-LP-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Sioux City	Sioux City, IA	fox	IA	KBVK-LP	http://www.siouxlandnews.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Sioux City	Sioux City, IA	mytv/thistv	IA	KBVK-LP-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+South Bend	South BendElkhart, IN	fox	IN	WSBT-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+South Bend	South BendElkhart, IN	cbs	IN	WSBT	http://www.wsbt.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Spokane	Spokane, WA	comet	WA	KLEW-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Spokane	Spokane, WA	cbs	WA	KLEW	http://www.klewtv.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Spokane	Spokane, WA	charge!	WA	KLEW-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+St Louis	St. Louis, MO	abc	MO	KDNL	http://www.abcstlouis.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+St Louis	St. Louis, MO	stadium	MO	KDNL-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+St Louis	St. Louis, MO	charge!	MO	KDNL-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+St Louis	St. Louis, MO	tbd	MO	KDNL-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Syracuse	Syracuse, NY	cw	NY	WSTQ	http://www.cnycentral.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Syracuse	Syracuse, NY	tbd	NY	WTVH-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Syracuse	Syracuse, NY	cw	NY	WSTM-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Syracuse	Syracuse, NY	comet	NY	WSTM-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Syracuse	Syracuse, NY	cbs	NY	WTVH	http://www.cnycentral.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Syracuse	Syracuse, NY	nbc	NY	WSTM	http://www.cnycentral.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Syracuse	Syracuse, NY	charge!	NY	WTVH-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Tallahassee	Tallahassee, FLThomasville, GA	fox	FL	WTWC-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Tallahassee	Tallahassee, FLThomasville, GA	cw	FL	WTLF	http://www.myfoxtallahassee.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Tallahassee	Tallahassee, FLThomasville, GA	nbc	FL	WTWC	http://www.wtwc40.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Tallahassee	Tallahassee, FLThomasville, GA	comet	FL	WTLF-2	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Tallahassee	Tallahassee, FLThomasville, GA	tbd	FL	WTLF-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Tallahassee	Tallahassee, FLThomasville, GA	stadium	FL	WTLF-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Tallahassee	Tallahassee, FLThomasville, GA	charge!	FL	WTWC-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Toledo	Toledo, OH	comet	OH	WNWO-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Toledo	Toledo, OH	stadium	OH	WNWO-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Toledo	Toledo, OH	tbd	OH	WNWO-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Toledo	Toledo, OH	nbc	OH	WNWO	http://nbc24.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Traverse City	Traverse CityCadillac, MI	abc	MI	WTOM-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Traverse City	Traverse CityCadillac, MI	comet	MI	WTOM-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Traverse City	Traverse CityCadillac, MI	nbc	MI	WTOM	http://www.upnorthlive.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Traverse City	Traverse CityCadillac, MI	nbc	MI	WGTQ-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Traverse City	Traverse CityCadillac, MI	comet	MI	WGTQ-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Traverse City	Traverse CityCadillac, MI	comet	MI	WPBN-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Traverse City	Traverse CityCadillac, MI	abc	MI	WGTU	http://www.upnorthlive.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Traverse City	Traverse CityCadillac, MI	nbc	MI	WGTU-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Traverse City	Traverse CityCadillac, MI	abc	MI	WPBN-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Traverse City	Traverse CityCadillac, MI	nbc	MI	WPBN	http://www.upnorthlive.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Traverse City	Traverse CityCadillac, MI	abc	MI	WGTQ	http://www.upnorthlive.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Tri Cities	Tri-Cities, TN-VA	tbd	TN	WEMT-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Tri Cities	Tri-Cities, TN-VA	nbc	TN	WCYB		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Tri Cities	Tri-Cities, TN-VA	cw	TN	WCYB-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Tri Cities	Tri-Cities, TN-VA	comet	TN	WCYB-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Tri Cities	Tri-Cities, TN-VA	fox	TN	WEMT		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Tri Cities	Tri-Cities, TN-VA	movies!	TN	WEMT-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Tri Cities	Tri-Cities, TN-VA	charge!	TN	WEMT-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Tulsa	Tulsa, OK	tbd	OK	KTUL-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Tulsa	Tulsa, OK	comet	OK	KTUL-2	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Tulsa	Tulsa, OK	antenna	OK	KTUL-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Tulsa	Tulsa, OK	abc	OK	KTUL	http://www.ktul.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Washington	Washington, DC	comet	DC	WJLA-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Washington	Washington, DC	abc	DC	WJLA	http://www.wjla.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Washington	Washington, DC	charge!	DC	WJLA-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Washington	Washington, DC	tbd	DC	WJLA-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+West Palm	West Palm BeachFort Pierce, FL	mytv	FL	WTCN	http://www.my15wtcn.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+West Palm	West Palm BeachFort Pierce, FL	weather	FL	WPEC-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+West Palm	West Palm BeachFort Pierce, FL	antenna	FL	WTCN-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+West Palm	West Palm BeachFort Pierce, FL	charge!	FL	WWHB-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+West Palm	West Palm BeachFort Pierce, FL	stadium	FL	WWHB-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+West Palm	West Palm BeachFort Pierce, FL	azteca	FL	WWHB	http://www.azteca48.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+West Palm	West Palm BeachFort Pierce, FL	tbd	FL	WTCN-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+West Palm	West Palm BeachFort Pierce, FL	cw	FL	WTVX	http://www.cw34.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+West Palm	West Palm BeachFort Pierce, FL	mytv	FL	WTVX-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+West Palm	West Palm BeachFort Pierce, FL	azteca	FL	WTVX-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+West Palm	West Palm BeachFort Pierce, FL	cbs	FL	WPEC	http://www.cbs12.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+West Palm	West Palm BeachFort Pierce, FL	comet	FL	WPEC-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Wheeling	Wheeling, WVSteubenville, OH	nbc	WV	WTOV	http://www.wtov9.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Wheeling	Wheeling, WVSteubenville, OH	metv	WV	WTOV-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Wheeling	Wheeling, WVSteubenville, OH	fox	WV	WTOV-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Wichita	WichitaHutchinson, KS	tbd	KS	KAAS-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Wichita	WichitaHutchinson, KS	comet	KS	KAAS-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Wichita	WichitaHutchinson, KS	fox	KS	KAAS-LD	http://www.foxkansas.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Wichita	WichitaHutchinson, KS	tbd	KS	KAAS-LD-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Wichita	WichitaHutchinson, KS	tbd	KS	KSAS-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Wichita	WichitaHutchinson, KS	tbd	KS	KSAS-LD-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Wichita	WichitaHutchinson, KS	comet	KS	KSAS-LD-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Wichita	WichitaHutchinson, KS	comet	KS	KSAS-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Wichita	WichitaHutchinson, KS	comet	KS	KOCW-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Wichita	WichitaHutchinson, KS	fox	KS	KSAS	http://www.foxkansas.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Wichita	WichitaHutchinson, KS	comet	KS	KAAS-LD-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Wichita	WichitaHutchinson, KS	mytv	KS	KMTW	http://mytvwichita.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Wichita	WichitaHutchinson, KS	fox	KS	KSAS-LD	http://www.foxkansas.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Wichita	WichitaHutchinson, KS	fox	KS	KAAS	http://www.foxkansas.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Wichita	WichitaHutchinson, KS	tbd	KS	KOCW-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Wichita	WichitaHutchinson, KS	charge!	KS	KMTW-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Wichita	WichitaHutchinson, KS	stadium	KS	KMTW-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Wichita	WichitaHutchinson, KS	fox	KS	KOCW	http://www.foxkansas.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Wilkes Barre	Wilkes BarreScranton, PA	mytv	PA	WQMY	http://www.FOX56.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Wilkes Barre	Wilkes BarreScranton, PA	metv	PA	WSWB-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Wilkes Barre	Wilkes BarreScranton, PA	fox	PA	WQMY-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Wilkes Barre	Wilkes BarreScranton, PA	cw	PA	WSWB	http://www.FOX56.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Wilkes Barre	Wilkes BarreScranton, PA	cw	PA	WQMY-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Wilkes Barre	Wilkes BarreScranton, PA	comet	PA	WSWB-3	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Wilkes Barre	Wilkes BarreScranton, PA	stadium	PA	WSWB-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Wilkes Barre	Wilkes BarreScranton, PA	mytv	PA	WOLF-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Wilkes Barre	Wilkes BarreScranton, PA	fox	PA	WOLF	http://www.FOX56.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Wilkes Barre	Wilkes BarreScranton, PA	cw	PA	WOLF-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Yakima	YakimaPascoRichlandKennewick, WA	univision	WA	KORX	http://www.kunwtv.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Yakima	YakimaPascoRichlandKennewick, WA	comet	WA	KORX-2	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Yakima	YakimaPascoRichlandKennewick, WA	charge!	WA	KORX-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Yakima	YakimaPascoRichlandKennewick, WA	tbd	WA	KORX-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Yakima	YakimaPascoRichlandKennewick, WA	cbs	WA	KEPR	http://www.keprtv.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Yakima	YakimaPascoRichlandKennewick, WA	tbd	WA	KVVK-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Yakima	YakimaPascoRichlandKennewick, WA	comet	WA	KVVK-2	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Yakima	YakimaPascoRichlandKennewick, WA	charge!	WA	KVVK-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Yakima	YakimaPascoRichlandKennewick, WA	stadium	WA	KEPR-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Yakima	YakimaPascoRichlandKennewick, WA	cw	WA	KEPR-2		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Yakima	YakimaPascoRichlandKennewick, WA	univision	WA	KVVK	http://www.kunwtv.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Yakima	YakimaPascoRichlandKennewick, WA	cbs	WA	KIMA	http://www.kimatv.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Yakima	YakimaPascoRichlandKennewick, WA	univision	WA	KUNW	http://www.kunwtv.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Yakima	YakimaPascoRichlandKennewick, WA	cw	WA	KIMA-2	http://cq9tv.com	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Yakima	YakimaPascoRichlandKennewick, WA	comet	WA	KUNW-2	http://www.comettv.com/	Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Yakima	YakimaPascoRichlandKennewick, WA	tbd	WA	KUNW-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Yakima	YakimaPascoRichlandKennewick, WA	charge!	WA	KUNW-4		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
+Yakima	YakimaPascoRichlandKennewick, WA	stadium	WA	KIMA-3		Sinclair	sbgi.net	2018-08-02 14:55:24.612585
