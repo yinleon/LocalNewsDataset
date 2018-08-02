@@ -10,16 +10,20 @@ from config import *
 
 '''
 This script contains scrapers for tribune, sinclair, nexstar, hearst, stationindex, and usnpl.
-Metadata about the stations in each of the stations is saved as csvs.
+
+Metadata about the stations in each of the stations is saved as tsvs.
 
 Note that these scrapers are super similar codebases!
 
 Written By Leon Yin
 On 2018-05-31
+Updated 2018-08-02
 '''
 
 def download_tribune():
+    '''Scrapes ther Tribune homepage.'''
     def parse_channel_html(channel_html, website=None):
+        '''Parses bs4 html to create a dictionary (row in the dataset)'''
         context = {}
         if website == None:
             website = channel_html.find('a').get('href')
@@ -49,44 +53,44 @@ def download_tribune():
 
         return context
     
-    df = None
-    if not os.path.exists(tribune_file) or DL_NEW:
-        print("Downloading Tribune")
-        url = 'http://www.tribunemedia.com/our-brands/'
-        r = requests.get(url, headers=headers)
-        soup = BeautifulSoup(r.content, 'lxml')
-        tables = soup.find_all('div', class_='vc_row wpb_row section vc_row-fluid ')
-        channels = soup.find_all('div', class_='wpb_wrapper')
+    print("Downloading Tribune")
+    url = 'http://www.tribunemedia.com/our-brands/'
+    r = requests.get(url, headers=headers)
+    soup = BeautifulSoup(r.content, 'lxml')
+    tables = soup.find_all('div', class_='vc_row wpb_row section vc_row-fluid ')
+    channels = soup.find_all('div', class_='wpb_wrapper')
 
-        metadata = []
-        for i, channel in tqdm(enumerate(channels)):
+    metadata = []
+    for i, channel in tqdm(enumerate(channels)):
+        try:
+            channel_meta = parse_channel_html(channel)
+            metadata.append(channel_meta)
+        except:
             try:
-                channel_meta = parse_channel_html(channel)
+                website = channels[i-8].find('a').get('href')
+                channel_meta = parse_channel_html(channel, website)
                 metadata.append(channel_meta)
             except:
-                try:
-                    website = channels[i-8].find('a').get('href')
-                    channel_meta = parse_channel_html(channel, website)
-                    metadata.append(channel_meta)
-                except:
-                    print(i)
+                print(i)
 
-        df = pd.DataFrame(metadata)
-        df['broadcaster'] = 'Tribune'
-        df['source'] = 'tribunemedia.com'
-        df['state'] = df['city'].replace(city_state)
-        df['collection_date'] = today
+    df = pd.DataFrame(metadata)
+    df['broadcaster'] = 'Tribune'
+    df['source'] = 'tribunemedia.com'
+    df['state'] = df['city'].replace(city_state)
+    df['collection_date'] = today
+    update = 1
     
     if os.path.exists(tribune_file):
         # appending to old
         df_ = pd.read_csv(tribune_file, index=False, sep='\t')
         df = df[~df['website'].isin(df_['website'])]
         df = df_.append(df)
-        
+   
     df.to_csv(tribune_file, index=False, sep='\t')
 
 
 def download_sinclair():
+    '''Scrapes ther Sinclair homepage.'''
     def camel_split(text):
         geo_split = re.findall(r'[A-Z](?:[a-z]+|[A-Z]*(?=[A-Z]|$))', text)
         state = geo_split[-1]
@@ -94,6 +98,7 @@ def download_sinclair():
         return city, state
 
     def parse_channel_html(channel_html):
+        '''Parses bs4 html to create a dictionary (row in the dataset)'''
         network = channel_html.get('class')[2]
         city, state = camel_split(channel_html.get('class')[-2])
         website = channel_html.find('a', class_='work-image').get('href')
@@ -113,25 +118,24 @@ def download_sinclair():
 
         return context
     
-    if not os.path.exists(sinclair_file) or DL_NEW:
-        print("Downloading Sinclair")
-        url = 'http://sbgi.net/tv-channels/'
-        r = requests.get(url, headers=headers)
-        soup = BeautifulSoup(r.content, 'lxml')
-        port = soup.find('div', class_='portfolio')
-        channels = port.find_all('div', class_=re.compile('^item five*'))
-        metadata = []
-        for channel in tqdm(channels):
-            try:
-                channel_meta = parse_channel_html(channel)
-                metadata.append(channel_meta)
-            except:
-                print(channel)
+    print("Downloading Sinclair")
+    url = 'http://sbgi.net/tv-channels/'
+    r = requests.get(url, headers=headers)
+    soup = BeautifulSoup(r.content, 'lxml')
+    port = soup.find('div', class_='portfolio')
+    channels = port.find_all('div', class_=re.compile('^item five*'))
+    metadata = []
+    for channel in tqdm(channels):
+        try:
+            channel_meta = parse_channel_html(channel)
+            metadata.append(channel_meta)
+        except:
+            print(channel)
 
-        df = pd.DataFrame(metadata)
-        df['broadcaster'] = 'Sinclair'
-        df['source'] = 'sbgi.net'
-        df['collection_date'] = today
+    df = pd.DataFrame(metadata)
+    df['broadcaster'] = 'Sinclair'
+    df['source'] = 'sbgi.net'
+    df['collection_date'] = today
     
     if os.path.exists(sinclair_file):
         # appending to old
@@ -143,6 +147,7 @@ def download_sinclair():
 
 
 def download_nexstar():
+    '''Scrapes ther Nexstar homepage.'''
     def get_geo(row):
         row = row.replace('  (3)', '')
         state = row.split(',')[-1]
@@ -151,24 +156,25 @@ def download_nexstar():
         state = state.strip()
         return city, state
     
-    if not os.path.exists(nexstar_file) or DL_NEW:
-        print("Downloading Nexstar")
-        url = 'https://www.nexstar.tv/stations/'
-        r = requests.get(url, headers=headers)
-        soup = BeautifulSoup(r.content, 'lxml')
-        table = soup.find('table', class_='tablepress tablepress-id-1 dataTable no-footer tablepress--responsive')
-        df = pd.read_html(str(table))[0]
-        df['city'], df['state'] = zip(*df['Market'].apply(get_geo))
-        df.columns = [cols_standard_nexstar.get(c, c) for c in df.columns]
-        df['broadcaster'] = 'Nexstar'
-        df['source'] = 'nexstar.tv'
-        df = df[cols_nexstar]
-        df['collection_date'] = today
-        df.to_csv(nexstar_file, sep='\t', index=False)
+    print("Downloading Nexstar")
+    url = 'https://www.nexstar.tv/stations/'
+    r = requests.get(url, headers=headers)
+    soup = BeautifulSoup(r.content, 'lxml')
+    table = soup.find('table', class_='tablepress tablepress-id-1 dataTable no-footer tablepress--responsive')
+    df = pd.read_html(str(table))[0]
+    df['city'], df['state'] = zip(*df['Market'].apply(get_geo))
+    df.columns = [cols_standard_nexstar.get(c, c) for c in df.columns]
+    df['broadcaster'] = 'Nexstar'
+    df['source'] = 'nexstar.tv'
+    df = df[cols_nexstar]
+    df['collection_date'] = today
+    df.to_csv(nexstar_file, sep='\t', index=False)
     
 
 def download_meredith():
+    '''Scrapes ther Meredith homepage.'''
     def parse_channel_html(channel_html):
+        '''Parses bs4 html to create a dictionary (row in the dataset)'''
         station = channel_html.get('data-station-name')
         geo = channel_html.find('div', class_='city').text
         city, state = geo.split(', ')
@@ -199,20 +205,19 @@ def download_meredith():
 
         return context
     
-    if not os.path.exists(meredith_file) or DL_NEW:
-        print("Downloading Meredith")
-        url = 'http://www.meredith.com/local-media/broadcast-and-digital'
-        r = requests.get(url, headers=headers)
-        soup = BeautifulSoup(r.content, 'lxml')
-        channels = soup.find_all('li', class_=re.compile('^dot station-id-*'))
-        metadata = []
-        for i, channel in tqdm(enumerate(channels)):
-            channel_meta = parse_channel_html(channel)
-            metadata.append(channel_meta)
-        df = pd.DataFrame(metadata)
-        df['broadcaster'] = 'Meredith'
-        df['source'] = 'meridith.com'
-        df['collection_date'] = today
+    print("Downloading Meredith")
+    url = 'http://www.meredith.com/local-media/broadcast-and-digital'
+    r = requests.get(url, headers=headers)
+    soup = BeautifulSoup(r.content, 'lxml')
+    channels = soup.find_all('li', class_=re.compile('^dot station-id-*'))
+    metadata = []
+    for i, channel in tqdm(enumerate(channels)):
+        channel_meta = parse_channel_html(channel)
+        metadata.append(channel_meta)
+    df = pd.DataFrame(metadata)
+    df['broadcaster'] = 'Meredith'
+    df['source'] = 'meridith.com'
+    df['collection_date'] = today
     
     if os.path.exists(meredith_file):
         # appending to old
@@ -224,7 +229,9 @@ def download_meredith():
 
 
 def download_hearst():
+    '''Scrapes ther Hearst homepage.'''
     def parse_channel_html(channel_html):
+        '''Parses bs4 html to create a dictionary (row in the dataset)'''
         website = channel_html.find('a').get('href')
         station = channel_html.find('h3').text
         geo = channel_html.find('div', class_='freeform').text.strip()
@@ -254,21 +261,20 @@ def download_hearst():
 
         return context
     
-    if not os.path.exists(hearst_file) or DL_NEW:
-        print("Downloading Hearst")
-        url = 'http://www.hearst.com/broadcasting/our-markets'
-        r = requests.get(url, headers=headers)
-        soup = BeautifulSoup(r.content, 'lxml')
-        channels = soup.find_all('div', class_='td')
-        metadata = []
-        for i, channel in tqdm(enumerate(channels)):
-            channel_meta = parse_channel_html(channel)
-            metadata.append(channel_meta)
-        df = pd.DataFrame(metadata)
-        df['broadcaster'] = 'Hearst'
-        df['source'] = 'hearst.com'
-        df = df.iloc[:33]
-        df['collection_date'] = today
+    print("Downloading Hearst")
+    url = 'http://www.hearst.com/broadcasting/our-markets'
+    r = requests.get(url, headers=headers)
+    soup = BeautifulSoup(r.content, 'lxml')
+    channels = soup.find_all('div', class_='td')
+    metadata = []
+    for i, channel in tqdm(enumerate(channels)):
+        channel_meta = parse_channel_html(channel)
+        metadata.append(channel_meta)
+    df = pd.DataFrame(metadata)
+    df['broadcaster'] = 'Hearst'
+    df['source'] = 'hearst.com'
+    df = df.iloc[:33]
+    df['collection_date'] = today
     
     if os.path.exists(hearst_file):
         # appending to old
@@ -284,6 +290,7 @@ def download_stationindex():
     stationindex has metadata about many tv stations in different states.
     '''
     def parse_station(row):
+         '''Parses bs4 html to create a dictionary (row in the dataset)'''
         station_name = row.find_all('td')[1].find('a').text
         spans = row.find('td', attrs={'width':'100%'}).find_all('span', attrs={"class":'text-bold'}) 
         d = {'station_name' : station_name}
@@ -300,31 +307,30 @@ def download_stationindex():
 
         return d
     
-    if not os.path.exists(stationindex_file) or DL_NEW:
-        print("Downloading StationIndex")
-        tv_markets = [
-            'http://www.stationindex.com/tv/tv-markets',
-            'http://www.stationindex.com/tv/tv-markets-100'
-        ]
+    print("Downloading StationIndex")
+    tv_markets = [
+        'http://www.stationindex.com/tv/tv-markets',
+        'http://www.stationindex.com/tv/tv-markets-100'
+    ]
 
-        market_urls = []
-        for url in tv_markets:
-            r = requests.get(url, headers=headers)
-            soup = BeautifulSoup(r.content, 'lxml')
-            table = soup.find('table', attrs={'class' : 'table table-striped table-condensed'})
-            urls = ['http://www.stationindex.com' + _.get('href') for _ in table.find_all('a')]
-            market_urls.extend(urls)
+    market_urls = []
+    for url in tv_markets:
+        r = requests.get(url, headers=headers)
+        soup = BeautifulSoup(r.content, 'lxml')
+        table = soup.find('table', attrs={'class' : 'table table-striped table-condensed'})
+        urls = ['http://www.stationindex.com' + _.get('href') for _ in table.find_all('a')]
+        market_urls.extend(urls)
 
-        data = []
-        for url in tqdm(market_urls):
-            r = requests.get(url, headers=headers)
-            soup = BeautifulSoup(r.content, 'lxml')
-            rows = soup.find_all('tr')
-            data.extend([parse_station(row) for row in rows])     
+    data = []
+    for url in tqdm(market_urls):
+        r = requests.get(url, headers=headers)
+        soup = BeautifulSoup(r.content, 'lxml')
+        rows = soup.find_all('tr')
+        data.extend([parse_station(row) for row in rows])     
 
-        df = pd.DataFrame(data)
-        df['source'] = 'stationindex'
-        df['collection_date'] = today
+    df = pd.DataFrame(data)
+    df['source'] = 'stationindex'
+    df['collection_date'] = today
 
     if os.path.exists(stationindex_file):
         # appending to old
@@ -370,39 +376,38 @@ def download_usnpl():
             'Website' : web
         }
     
-    if not os.path.exists(usnpl_file) or DL_NEW:
-        print("Downloading USNPL")
-        sites = []
-        for state in states:
-            url = 'http://www.usnpl.com/{}news.php'.format(state)
-            r = requests.get(url, headers=headers)
-            soup = BeautifulSoup(r.content, 'lxml')
+    print("Downloading USNPL")
+    sites = []
+    for state in states:
+        url = 'http://www.usnpl.com/{}news.php'.format(state)
+        r = requests.get(url, headers=headers)
+        soup = BeautifulSoup(r.content, 'lxml')
 
-            data_possibilities = soup.find_all('div' ,{"id" : 'data_box'})
-            for i, raw_table in enumerate(data_possibilities[1:]):
-                j = 1 if i == 0 else 0
-                medium = raw_table.find('h3').text
-                if medium == 'Newspapers':
-                    data_table = str(raw_table).split('<br/><br/>\n</div>\n')[j]
-                    entries_to_parse = data_table.rstrip('</div>').split('\n<br/>\n')
-                elif medium in ['Magazines', 'College Newspapers']:
-                    data_table = str(raw_table).split('<title>Untitled Document</title>')[1]
-                    entries_to_parse = data_table.rstrip('</div>').split('\n<br/>\n')
-                else:
-                    break
+        data_possibilities = soup.find_all('div' ,{"id" : 'data_box'})
+        for i, raw_table in enumerate(data_possibilities[1:]):
+            j = 1 if i == 0 else 0
+            medium = raw_table.find('h3').text
+            if medium == 'Newspapers':
+                data_table = str(raw_table).split('<br/><br/>\n</div>\n')[j]
+                entries_to_parse = data_table.rstrip('</div>').split('\n<br/>\n')
+            elif medium in ['Magazines', 'College Newspapers']:
+                data_table = str(raw_table).split('<title>Untitled Document</title>')[1]
+                entries_to_parse = data_table.rstrip('</div>').split('\n<br/>\n')
+            else:
+                break
 
-                for row in tqdm(entries_to_parse):
-                    row = row.strip('\r').strip('\n')
-                    if row:
-                        entry = parse_row(BeautifulSoup(row, 'lxml'))
-                        entry['Geography'] = state.upper()
-                        entry['Medium'] = medium
-                        sites.append(entry)
-                time.sleep(1)
-        df = pd.DataFrame(sites)
-        df['Website'] = df['Website'].str.rstrip('/')
-        df['source'] = 'usnpl.com'
-        df['collection_date'] = today
+            for row in tqdm(entries_to_parse):
+                row = row.strip('\r').strip('\n')
+                if row:
+                    entry = parse_row(BeautifulSoup(row, 'lxml'))
+                    entry['Geography'] = state.upper()
+                    entry['Medium'] = medium
+                    sites.append(entry)
+            time.sleep(1)
+    df = pd.DataFrame(sites)
+    df['Website'] = df['Website'].str.rstrip('/')
+    df['source'] = 'usnpl.com'
+    df['collection_date'] = today
     
     if os.path.exists(usnpl_file):
         # appending to old
