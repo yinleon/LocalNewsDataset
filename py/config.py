@@ -17,15 +17,106 @@ usnpl_file = os.path.join(data_dir, 'usnpl.tsv')
 custom_station_file = os.path.join(data_dir, 'custom_additions.json')
 
 # this is the output!
-state_file = os.path.join(data_dir, 'local_news_dataset_2018.csv') 
+local_news_dataset_file  = os.path.join(data_dir, 'local_news_dataset_2018.csv') 
 
 headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'}
 
-# download new
-DL_NEW = True
+# variables
 today = datetime.datetime.now()
 version = 0
 
+
+
+# for normalizing station info.
+owner_mapping = {
+    'Meredith Corporation' : 'Meredith',
+    'Sinclair Broadcast Group' : 'Sinclair',
+    'Nexstar Media Group' : 'Nexstar',
+    'Hearst Television' : 'Hearst'
+}
+
+station_index_mapping = {
+    'owner' : 'broadcaster'
+}
+
+national = [
+    'comettv.com',
+    'tbn.org',
+    'iontelevision.com',
+    'tct-net.org',
+    'sbgi.net',
+    'daystar.com',
+]
+
+look_up = {' Honolulu' : 'HI',
+ ' Kalamazoo. MI' : 'MI',
+' San Antonio' : 'TX'}
+
+col_standard = {
+    'station' : 'name',
+    'twitter_name' : 'twitter',
+    'geography' : 'state',
+    'broadcaster' : 'owner'
+}
+
+cols_standard_nexstar = {
+    'Web Site' : 'website',
+    'Station' : 'station',
+    'Affiliation' : 'network'
+} 
+
+cols_nexstar = ['station', 'website', 'city', 'state', 'broadcaster', 'source']
+
+cols = ['name', 'state', 'website', 'twitter', 'youtube', 'facebook', 'owner', 'medium', 'source', 'collection_date']
+cols_final = ['name', 'state', 'website', 'domain', 'twitter', 'youtube', 'facebook', 'owner', 'medium', 'source', 'collection_date']
+
+# to align nexstar websites to station names
+nexstar_alignment = {
+
+    'krqe.com' : [
+        'KRQE',
+        'KBIM',
+        'KREZ',
+    ],
+
+    'kwbq.com' : [
+        'KWBQ',
+        'KASY',
+        'KRWB'
+    ] ,
+
+    'kark.com' : [
+        'KARK',
+        'KARZ'
+    ],
+
+    'fox16.com' : [
+        'KLRT'
+    ],
+
+    'cwarkansas.com' : [
+        'KASN '
+    ],
+
+    'woodtv.com' : [
+        'WOOD',
+    ],
+
+    'wotv4women.com' : [
+        'WOTV',
+        'WXSP-CD'
+
+    ],
+    
+    'wkbn.com' : [
+        'WKBN'
+    ],
+    
+    'wytv.com' : [
+        'WYTV',
+        'WYFX-LD'
+    ]  
+}
 
 # for USNPL
 states = '''ak	  al	  ar	  az	  ca	  co	  ct	  dc	  de	  fl	  ga	  hi	  ia	  id	  il	  in	  ks   ky	  la	  ma	  md	  me	  mi	  mn	  mo	  ms	  mt	  nc	  nd	  ne	  nh	  nj	  nm	  nv	  ny	  oh	  ok	  or	  pa	  ri	  sc	  sd	  tn	  tx	  ut	  va	  vt	  wa	  wi	  wv	  wy	'''
@@ -69,47 +160,3 @@ city_state = {
     'Fort Smith' : "AK",
     'America' : 'National'
 }
-
-# for normalizing station info.
-owner_mapping = {
-    'Meredith Corporation' : 'Meredith',
-    'Sinclair Broadcast Group' : 'Sinclair',
-    'Nexstar Media Group' : 'Nexstar',
-    'Hearst Television' : 'Hearst'
-}
-
-station_index_mapping = {
-    'station_name' : 'station',
-    'owner' : 'broadcaster'
-}
-
-national = [
-    'comettv.com',
-    'tbn.org',
-    'iontelevision.com',
-    'tct-net.org',
-    'sbgi.net',
-    'daystar.com',
-]
-
-look_up = {' Honolulu' : 'HI',
- ' Kalamazoo. MI' : 'MI',
-' San Antonio' : 'TX'}
-
-col_standard = {
-    'station' : 'name',
-    'twitter_name' : 'twitter',
-    'geography' : 'state',
-    'broadcaster' : 'owner'
-}
-
-cols_standard_nexstar = {
-    'Web Site' : 'website',
-    'Station' : 'station',
-    'Affiliation' : 'network'
-} 
-
-cols_nexstar = ['station', 'website', 'city', 'state', 'broadcaster', 'source']
-
-cols = ['name', 'state', 'website', 'twitter', 'youtube', 'facebook', 'owner', 'medium', 'source', 'collection_date']
-cols_final = ['name', 'state', 'website', 'domain', 'twitter', 'youtube', 'facebook', 'owner', 'medium', 'source', 'collection_date']

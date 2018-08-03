@@ -2,6 +2,8 @@ import re
 import requests
 import time
 
+from django.core.validators import URLValidator
+from django.core.exceptions import ValidationError
 import pandas as pd
 from tqdm import tqdm as tqdm
 from bs4 import BeautifulSoup
@@ -20,38 +22,35 @@ On 2018-05-31
 Updated 2018-08-02
 '''
 
+
 def download_tribune():
     '''Scrapes ther Tribune homepage.'''
     def parse_channel_html(channel_html, website=None):
         '''Parses bs4 html to create a dictionary (row in the dataset)'''
-        context = {}
         if website == None:
             website = channel_html.find('a').get('href')
         station = channel_html.find('div', class_='q_team_title_holder').find("h3").text
         city = channel_html.find('div', class_='q_team_title_holder').find('span').text
         social = channel_html.find('div', class_='q_team_social_holder')
         network = None
-
-        if social:
-            for s in social.find_all('span', class_='q_social_icon_holder normal_social'):
-                link = s.find('a').get('href')
-                if 'facebook' in link:
-                    context['facebook'] = link
-                elif 'twitter' in link:
-                    context['twitter'] = link
-                elif 'youtube' in link:
-                    context['youtube'] = link
-
-        context_ = dict(
+        
+        row = dict(
             network = network,
             city = city,
             website = website,
             station = station,
         )
 
-        context = {**context, **context_}
-
-        return context
+        if social:
+            for s in social.find_all('span', class_='q_social_icon_holder normal_social'):
+                link = s.find('a').get('href')
+                if 'facebook' in link:
+                    row['facebook'] = link
+                elif 'twitter' in link:
+                    row['twitter'] = link
+                elif 'youtube' in link:
+                    row['youtube'] = link
+        return row
     
     print("Downloading Tribune")
     url = 'http://www.tribunemedia.com/our-brands/'
@@ -82,8 +81,8 @@ def download_tribune():
     
     if os.path.exists(tribune_file):
         # appending to old
-        df_ = pd.read_csv(tribune_file, index=False, sep='\t')
-        df = df[~df['website'].isin(df_['website'])]
+        df_ = pd.read_csv(tribune_file, sep='\t')
+        df = df[~df['station'].isin(df_['station'])]
         df = df_.append(df)
    
     df.to_csv(tribune_file, index=False, sep='\t')
@@ -107,7 +106,7 @@ def download_sinclair():
         station = channel_html.find('span', class_='callLetters').text
         geo = channel_html.find('span', class_='cityState').text.replace(' - ', '')
 
-        context = dict(
+        row = dict(
             network = network,
             city = city,
             state = state,
@@ -116,7 +115,7 @@ def download_sinclair():
             geo = geo
         )
 
-        return context
+        return row
     
     print("Downloading Sinclair")
     url = 'http://sbgi.net/tv-channels/'
@@ -139,8 +138,8 @@ def download_sinclair():
     
     if os.path.exists(sinclair_file):
         # appending to old
-        df_ = pd.read_csv(sinclair_file, index=False, sep='\t')
-        df = df[~df['website'].isin(df_['website'])]
+        df_ = pd.read_csv(sinclair_file, sep='\t')
+        df = df[~df['station'].isin(df_['station'])]
         df = df_.append(df) 
         
     df.to_csv(sinclair_file, index=False, sep='\t')
@@ -156,6 +155,47 @@ def download_nexstar():
         state = state.strip()
         return city, state
     
+    def fix_up_mismatched_stations(row):
+        '''
+        The table that the Nexstar dataset is scraped from is no aligned.
+        This is a way to automate alignment
+        '''
+        stations = row['station'].split()
+        websites = row['website'].split()
+
+        if len(stations) > 1:
+            if len(websites) == 1:
+                # if there is one website it applies to all the stations
+                for station in stations:
+                    row_ = row.copy()
+                    row_['station'] = station
+                    yield row_
+
+            elif len(stations) == len(websites):
+                # if the number of websites is equal to that of the stations,
+                # we can just align them like this
+                for s, w in zip(stations, websites):
+                    row_ = row.copy()
+                    row_['station'] = s
+                    row_['website'] = w
+                    yield row_
+
+            else:
+                # These are the hardest to align, we make a make a manual mapping
+                # and map the correct station to the website
+                for w in websites:
+                    custom_mapping = nexstar_alignment.get(w)
+                    if custom_mapping:
+                        for s in custom_mapping:
+                            row_ = row.copy()
+                            row_['station'] = s
+                            row_['website'] = w
+                            yield row_
+                    else:
+                        print(f"{w} is an edge case that needs to be updated on `nexstar_mapping`")
+        else:
+            yield row
+    
     print("Downloading Nexstar")
     url = 'https://www.nexstar.tv/stations/'
     r = requests.get(url, headers=headers)
@@ -168,6 +208,20 @@ def download_nexstar():
     df['source'] = 'nexstar.tv'
     df = df[cols_nexstar]
     df['collection_date'] = today
+    
+    # align stations and websites! many to one relationship per row...
+    data = []
+    for i, row in df.iterrows():
+        for _ in fix_up_mismatched_stations(row):
+            data.append(_)
+    df = pd.DataFrame(data)
+    
+    if os.path.exists(nexstar_file):
+        # appending to old
+        df_ = pd.read_csv(nexstar_file, sep='\t')
+        df = df[~df['station'].isin(df_['station'])]
+        df = df_.append(df) 
+        
     df.to_csv(nexstar_file, sep='\t', index=False)
     
 
@@ -192,7 +246,7 @@ def download_meredith():
         except:
             twitter = None 
 
-        context = dict(
+        data = dict(
             station = station,
             city = city,
             state = state,
@@ -203,7 +257,7 @@ def download_meredith():
             google = google
         )
 
-        return context
+        return data
     
     print("Downloading Meredith")
     url = 'http://www.meredith.com/local-media/broadcast-and-digital'
@@ -221,8 +275,8 @@ def download_meredith():
     
     if os.path.exists(meredith_file):
         # appending to old
-        df_ = pd.read_csv(tribune_file, index=False, sep='\t')
-        df = df[~df['website'].isin(df_['website'])]
+        df_ = pd.read_csv(meredith_file, sep='\t')
+        df = df[~df['station'].isin(df_['station'])]
         df = df_.append(df) 
         
     df.to_csv(meredith_file, index=False, sep='\t')
@@ -278,8 +332,8 @@ def download_hearst():
     
     if os.path.exists(hearst_file):
         # appending to old
-        df_ = pd.read_csv(tribune_file, index=False, sep='\t')
-        df = df[~df['website'].isin(df_['website'])]
+        df_ = pd.read_csv(hearst_file, sep='\t')
+        df = df[~df['station'].isin(df_['station'])]
         df = df_.append(df) 
     
     df.to_csv(hearst_file, index=False, sep='\t')
@@ -290,22 +344,26 @@ def download_stationindex():
     stationindex has metadata about many tv stations in different states.
     '''
     def parse_station(row):
-         '''Parses bs4 html to create a dictionary (row in the dataset)'''
+        '''Parses bs4 html to create a dictionary (row in the dataset)'''
+                
         station_name = row.find_all('td')[1].find('a').text
         spans = row.find('td', attrs={'width':'100%'}).find_all('span', attrs={"class":'text-bold'}) 
-        d = {'station_name' : station_name}
+        row = {'station' : station_name}
         for span in spans:
+            # each span becomes a different column:
             col_name = span.text.rstrip(':').strip(' ').replace(' ', '_').lower().replace('web_site', 'website')
             val = span.next_sibling
             if col_name == 'website':
+                # this needs to be validateed, 
+                # there are some incorrect strings being passed as URLs
                 val = val.next_sibling.text
             if col_name == 'city':
                 state = val.split(', ')[-1]
                 val = val.split(', ')[0]
-                d['state'] = state
-            d[col_name] = val
+                row['state'] = state
+            row[col_name] = val
 
-        return d
+        return row
     
     print("Downloading StationIndex")
     tv_markets = [
@@ -334,8 +392,8 @@ def download_stationindex():
 
     if os.path.exists(stationindex_file):
         # appending to old
-        df_ = pd.read_csv(tribune_file, index=False, sep='\t')
-        df = df[~df['website'].isin(df_['website'])]
+        df_ = pd.read_csv(stationindex_file, sep='\t')
+        df = df[~df['station'].isin(df_['station'])]
         df = df_.append(df) 
         
     df.to_csv(stationindex_file, index=False, sep='\t')
@@ -411,23 +469,25 @@ def download_usnpl():
     
     if os.path.exists(usnpl_file):
         # appending to old
-        print("appending to old")
-        df_ = pd.read_csv(tribune_file, index=False, sep='\t')
-        df = df[~df['website'].isin(df_['website'])]
+        df_ = pd.read_csv(usnpl_file, sep='\t')
+        df = df[~df['Name'].isin(df_['Name'])]
         df = df_.append(df) 
     
     df.to_csv(usnpl_file, index=False, sep='\t')
     
     
-def main():
+def download_all_datasets():
+    '''
+    Downloads datasets from the 7 sources.
+    '''
     download_hearst()
     download_meredith()
     download_nexstar()
     download_sinclair()
     download_tribune()
-    download_usnpl()
     download_stationindex()
+    download_usnpl()
     
 if __name__ == "__main__":
-    main()
+    download_all_datasets()
     

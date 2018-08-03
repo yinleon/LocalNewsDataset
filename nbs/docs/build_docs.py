@@ -1,5 +1,6 @@
 import os
 import pandas as pd
+import plotly.plotly as py
 from IPython.core.display import HTML, display, Markdown, Latex
 
 # common column definitions
@@ -32,8 +33,8 @@ hearst_docs = {
         'collection_date' : collection_date, 
     },
     "file" : '../data/hearst.tsv',
-    "url" : 'TODO',
-    "script" : 'TODO',
+    "url" : 'https://raw.githubusercontent.com/yinleon/LocalNewsDataset/master/data/hearst.tsv',
+    "script" : 'https://github.com/yinleon/LocalNewsDataset/blob/master/py/download_data.py',
     "description" : 'An intermediate file of news outlets owned by Hearst scraped from their website'
 }
 
@@ -52,8 +53,8 @@ meredith_docs = {
         'collection_date' : collection_date,
     },
     "file" : '../data/meredith.tsv',
-    "url" : 'TODO',
-    "script" : 'TODO',
+    "url" : 'https://raw.githubusercontent.com/yinleon/LocalNewsDataset/master/data/meredith.tsv',
+    "script" : 'https://github.com/yinleon/LocalNewsDataset/blob/master/py/download_data.py',
     "description" : 'An intermediate file of news outlets owned by Meredith scraped from their website'
 }
 
@@ -68,8 +69,8 @@ nexstar_docs = {
         'collection_date' : collection_date
     },
     "file" : '../data/nexstar.tsv',
-    "url" : 'TODO',
-    "script" : 'TODO',
+    "url" : 'https://raw.githubusercontent.com/yinleon/LocalNewsDataset/master/data/nexstar.tsv',
+    "script" : 'https://github.com/yinleon/LocalNewsDataset/blob/master/py/download_data.py',
     "description" : 'An intermediate file of news outlets owned by Nexstar scraped from their website'
 }
 
@@ -86,8 +87,8 @@ sinclair_docs = {
         'collection_date' : collection_date, 
     },
     "file" : '../data/sinclair.tsv',
-    "url" : 'TODO',
-    "script" : 'TODO',
+    "url" : 'https://raw.githubusercontent.com/yinleon/LocalNewsDataset/master/data/sinclair.tsv',
+    "script" : 'https://github.com/yinleon/LocalNewsDataset/blob/master/py/download_data.py',
     "description" : 'An intermediate file of news outlets owned by Sinclair scraped from their website'
 }
 
@@ -106,8 +107,8 @@ tribune_docs = {
         'collection_date' : collection_date ,
     },
     "file" : '../data/tribune.tsv',
-    "url" : 'TODO',
-    "script" : 'TODO',
+    "url" : 'https://raw.githubusercontent.com/yinleon/LocalNewsDataset/master/data/tribune.tsv',
+    "script" : 'https://github.com/yinleon/LocalNewsDataset/blob/master/py/download_data.py#L21-L86',
     "description" : 'An intermediate file of news outlets owned by Tribune scraped from their website.'
 }
 
@@ -119,15 +120,15 @@ station_index_docs = {
         'owner' : owner, 
         'state' : state, 
         'station_info' : 'Typically related to the frequency of the transmission', 
-        'station_name' : station_name, 
+        'station' : station_name, 
         'subchannels' : 'Alternative names for the TV station', 
         'website' : website, 
         'source' : source, 
         'collection_date' : collection_date, 
     },
     "file" : '../data/station_index.tsv',
-    "url" : 'TODO',
-    "script" : 'TODO',
+    "url" : 'https://raw.githubusercontent.com/yinleon/LocalNewsDataset/master/data/station_index.tsv',
+    "script" : 'https://github.com/yinleon/LocalNewsDataset/blob/master/py/download_data.py',
     "description" : 'An intermediate file of TV stations compiled on stationindex.com. The website is scraped according to the market (reigon), and again according to the owner. The two scraped datasets are merged and duplicates are dropped. When dropping duplicates, precedence is given to the entry scraped owners.'
     
 }
@@ -145,8 +146,8 @@ usnpl_docs = {
         'collection_date' : collection_date
     },
     "file" : '../data/usnpl.tsv',
-    "url" : 'TODO',
-    "script" : 'TODO',
+    "url" : 'https://raw.githubusercontent.com/yinleon/LocalNewsDataset/master/data/usnpl.tsv',
+    "script" : 'https://github.com/yinleon/LocalNewsDataset/blob/master/py/download_data.py',
     "description" : 'An intermediate file of News papers, magazines and college papers compiled by usnpl.com. The website is scraped by visiting state-specific pages using requests and BeautifulSoup, websites and social media are collected wherever possible.'
 }
 
@@ -165,12 +166,13 @@ output_docs = {
         'collection_date' : collection_date,
     },
     "file" : '../data/local_news_dataset_2018.csv',
-    "url" : 'TODO',
-    "script" : 'TODO',
+    "url" : 'https://raw.githubusercontent.com/yinleon/LocalNewsDataset/master/data/local_news_dataset_2018.csv',
+    "script" : 'https://github.com/yinleon/LocalNewsDataset/blob/master/py/merge.py',
     "description" : 'The intermediaries are merged (using this script), and preprocessed resulting in this file',
     "sep" : ','
 }
 
+# this is the order that the data spec section will be generated
 docs = [
     sinclair_docs,
     meredith_docs,
@@ -185,22 +187,30 @@ table_header = '''| Column Name | Description | N Unique Values |
 | --- | --- | --- |'''
 
 intro_markdown = '''## Inventory
-These are the files in the `../data/` folder.
+These are the files in the `../data/` folder ([repo](https://github.com/yinleon/LocalNewsDataset/tree/master/data)).
 
-### Outputs
-- [local_news_dataset_2018.csv](#local_news_dataset_2018)
+The intermediates are generated (and can be updated) by<br>
+```python download_data.py```
+
+The output file is created from merging and pre-processing the intermediates<br>
+```python merge.py``` 
 '''
+
+end_of_table_of_contents = '''
+    
+### Outputs
+- [local_news_dataset_2018.csv](#local_news_dataset_2018)'''
 
 def generate_docs_for_dataset(doc_dict, return_to_top=True):
     '''
     Given a dictionary, this properly formats the documentation!
     '''
     # Introduction
-    filename = os.path.basename(doc_dict['file']).split('.')[0]
-    display(Markdown(f"## <a name='{filename}'>{filename}.tsv</a>"))
+    filename = os.path.basename(doc_dict['file'])
+    display(Markdown(f"## <a name='{filename.split('.')[0]}'>{filename}</a>"))
     display(Markdown(doc_dict['description']))
-    display(Markdown(f"Read the raw file from this URL: \n `{doc_dict['url']}`\n"))
-    display(Markdown(f"See the code used to make this dataset: \n `{doc_dict['script']}`\n"))
+    display(Markdown(f"Read the raw file from this [URL]({doc_dict['url']}): <br> `{doc_dict['url']}`\n"))
+    display(Markdown(f"See the [code]({doc_dict['script']}) used to make this dataset: <br> `{doc_dict['script']}`\n"))
     display(Markdown(''))
 
     
@@ -217,26 +227,39 @@ def generate_docs_for_dataset(doc_dict, return_to_top=True):
     doc_string = "#### What do the columns mean?" + '\n'
     doc_string += table_header + '\n'
     for k, v in doc_dict.get('columns').items():
-        doc_string += f"| `{k}` | {v} | {len(df[k].unique())} |" + '\n'
+        doc_string += f"| <b>{k}</b> | {v} | {len(df[k].unique())} |" + '\n'
     display(Markdown(doc_string))
     display(Markdown(''))
+    
+    # link to top of spec sheet
     if return_to_top:
-        display(Markdown('[Top of Data Sheet](#datasheet)'))
+        display(Markdown('[Top of Spec Sheet](#specs)'))
     display(Markdown(''))
   
+
 def generate_intro():
+    '''
+    Markdown for the Introduction of the Data Specs section
+    '''
     display(Markdown(intro_markdown))
     table_of_contents = '### Intermediates \n'
     for dataset in docs:
         filename = os.path.basename(dataset['file']).split('.')[0]
         table_of_contents += f" - [{filename}.tsv](#filename)\n"
-    display(Markdown(table_of_contents))
+    table_of_contents += end_of_table_of_contents
+    display(Markdown(table_of_contents))    
     display(Markdown('<hr>'))
         
 
-import plotly.plotly as py
-
-def plot_chloro(df, title=''):
+def chloropleth():
+    '''
+    Wrangles data and plots it in a plotly chloropleth map
+    based off this code:
+    https://plot.ly/pandas/choropleth-maps/
+    '''
+    display(Markdown('Below is an interactive [Plot.ly](https://plot.ly) chloropleth map of state-level representation in this dataset. Scroll over each state to get a list of the top mediums and owners.'))
+    df = pd.read_csv(output_docs['file'])
+    
     scl = [# Let first 10% (0.1) of the values have color rgb(0, 0, 0)
         [0, 'rgb(180, 180, 180)'],
         [0.1, 'rgb(180, 180, 180)'],
@@ -306,7 +329,7 @@ def plot_chloro(df, title=''):
             ) ]
 
     layout = dict(
-            title = title,
+            title = 'State-Level Coverage of the Local News Dataset',
             geo = dict(
                 scope='usa',
                 projection=dict( type='albers usa' ),
@@ -315,13 +338,7 @@ def plot_chloro(df, title=''):
                 )
 
     fig = dict( data=data, layout=layout )
-    return py.iplot(fig, filename='d3-cloropleth-map' )
-
-def chloropleth():
-    
-    display(Markdown('Below is an interactive [Plot.ly](https://plot.ly) chloropleth map of state-level representation in this dataset. Scroll over each state to get a list of the top mediums and owners.'))
-    df = pd.read_csv(output_docs['file'])
-    display(plot_chloro(df, title = 'Coverage of State-Level Media Outlets from the Local News Dataset'))
+    display(py.iplot(fig, filename='d3-cloropleth-map' ))
  
 
 def summary_stats():
@@ -333,7 +350,7 @@ def summary_stats():
     
     display(Markdown('#### Breakdown of data sources in the Local News Dataset'))
     display(df.source.value_counts().to_frame())
-    display(Markdown('`User Input` are custom additions added from the contents of [this JSON file](#TODO) in [this section](#TODO) of the `merge.py'))
+    display(Markdown('The `User Input` entires are custom additions added from the contents of [this JSON file](https://github.com/yinleon/LocalNewsDataset/blob/master/data/custom_additions.json) and added to the dataset in `merge.py`'))
     display(Markdown(''))
 
 

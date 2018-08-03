@@ -74,10 +74,10 @@ def merge_stations():
     # Here we're dropping duplicates (prioritizing parent company info)
     df_tv = pd.DataFrame()
     for state, df_ in df_super.groupby('state'):
-        if state == 'MO':
-            df_ = df_[df_['website_standard']!='fox4kc.com']
+        #if state == 'MO':
+        #    df_ = df_[df_['website_standard']!='fox4kc.com']
         df_tv = df_tv.append(
-            df_.drop_duplicates(subset=['website_standard'], 
+            df_.drop_duplicates(subset=['station', 'website_standard'], 
                                 keep='last'))
     
     # set some new columns
@@ -117,7 +117,7 @@ def merge_tv_and_media():
     df_state['state'] = df_state['state'].str.upper()
     
     # write the results to a csv
-    df_state[cols_final].to_csv(state_file.replace('.csv', '_with_national.csv'), index=False, sep='\t')
+    df_state[cols_final].to_csv(local_news_dataset_file.replace('.csv', '_with_national.csv'), index=False)
     
     # filter out national domains 
     filter_out = urlexpander.datasets.load_us_national_media_outlets().tolist()
@@ -126,7 +126,7 @@ def merge_tv_and_media():
     df_state['owner'] = df_state['owner'].str.lstrip(' ')
     
     # write the results to a csv
-    df_state[cols_final].to_csv(state_file, index=False)
+    df_state[cols_final].to_csv(local_news_dataset_file, index=False)
     
 if __name__ == "__main__":
     merge_tv_and_media()
