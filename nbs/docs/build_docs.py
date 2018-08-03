@@ -14,7 +14,7 @@ youtube = "The URL to the media outlet's YouTube presence."
 twitter_name = "The Twitter screen name of the news outlet."
 twitter_url = "The URL to the Twitter screen name of the news outlet."
 city = 'The name of the city that the TV station broadcasts from.'
-station_name= 'The name of the TV station IE ("KRIV"). If anyone knows the origin of this naming convention, I would love to know!'
+station_name= 'The name of the TV station I.E. ("WGBH").'
 network = 'The franchise or brand name that the station belongs to IE Fox'
 google = "The URL to the media outlet's Google Plus presence."
 
@@ -137,7 +137,7 @@ usnpl_docs = {
     'columns' : {   
         'Facebook' : facebook, 
         'Geography' : state, 
-        'Medium' : 'Whether the news outlet us a newspaper (includes online), magazine, or college newspaper.', 
+        'Medium' : 'Whether the news outlet is a newspaper, magazine or college newspaper.', 
         'Name' : station_name, 
         'Twitter_Name' : twitter_name, 
         'Website' : website, 
@@ -161,14 +161,14 @@ output_docs = {
         'youtube' : youtube, 
         'facebook' : facebook, 
         'owner' : owner, 
-        'medium' : 'Whether the news outlet us a newspaper (includes online), magazine or a TV station', 
+        'medium' : 'Whether the news outlet is a newspaper, magazine, college newspater or a TV station', 
         'source' : source, 
         'collection_date' : collection_date,
     },
     "file" : '../data/local_news_dataset_2018.csv',
     "url" : 'https://raw.githubusercontent.com/yinleon/LocalNewsDataset/master/data/local_news_dataset_2018.csv',
     "script" : 'https://github.com/yinleon/LocalNewsDataset/blob/master/py/merge.py',
-    "description" : 'The intermediaries are merged (using this script), and preprocessed resulting in this file',
+    "description" : 'The intermediate files above are preprocessed (renaming columns, removing duplicates) and merged resulting in the Local News Dataset! This is it! We made it!',
     "sep" : ','
 }
 
