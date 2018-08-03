@@ -187,13 +187,6 @@ table_header = '''| Column Name | Description | N Unique Values |
 | --- | --- | --- |'''
 
 intro_markdown = '''## Inventory
-These are the files in the `../data/` folder ([repo](https://github.com/yinleon/LocalNewsDataset/tree/master/data)).
-
-The intermediates are generated (and can be updated) by<br>
-```python download_data.py```
-
-The output file is created from merging and pre-processing the intermediates<br>
-```python merge.py``` 
 '''
 
 end_of_table_of_contents = '''
