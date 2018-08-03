@@ -17,7 +17,72 @@ For an indepth [introduction](https://nbviewer.jupyter.org/github/yinleon/LocalN
 
 
 ## What's the data look like?
-<table border="1" class="dataframe">\n  <thead>\n    <tr style="text-align: right;">\n      <th></th>\n      <th>name</th>\n      <th>state</th>\n      <th>website</th>\n      <th>domain</th>\n      <th>twitter</th>\n      <th>youtube</th>\n      <th>facebook</th>\n      <th>owner</th>\n      <th>medium</th>\n      <th>source</th>\n      <th>collection_date</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <th>0</th>\n      <td>KWHE</td>\n      <td>HI</td>\n      <td>http://www.kwhe.com/</td>\n      <td>kwhe.com</td>\n      <td>NaN</td>\n      <td>NaN</td>\n      <td>NaN</td>\n      <td>LeSea</td>\n      <td>TV station</td>\n      <td>stationindex</td>\n      <td>2018-08-02 14:55:24.612585</td>\n    </tr>\n    <tr>\n      <th>1</th>\n      <td>WGVK</td>\n      <td>MI</td>\n      <td>http://www.wgvu.org/</td>\n      <td>wgvu.org</td>\n      <td>NaN</td>\n      <td>NaN</td>\n      <td>NaN</td>\n      <td>Grand Valley State University</td>\n      <td>TV station</td>\n      <td>stationindex</td>\n      <td>2018-08-02 14:55:24.612585</td>\n    </tr>\n    <tr>\n      <th>2</th>\n      <td>KNIC-CD</td>\n      <td>TX</td>\n      <td>NaN</td>\n      <td>NaN</td>\n      <td>NaN</td>\n      <td>NaN</td>\n      <td>NaN</td>\n      <td>Univision</td>\n      <td>TV station</td>\n      <td>stationindex</td>\n      <td>2018-08-02 14:55:24.612585</td>\n    </tr>\n  </tbody>\n</table>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>name</th>
+      <th>state</th>
+      <th>website</th>
+      <th>domain</th>
+      <th>twitter</th>
+      <th>youtube</th>
+      <th>facebook</th>
+      <th>owner</th>
+      <th>medium</th>
+      <th>source</th>
+      <th>collection_date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>KWHE</td>
+      <td>HI</td>
+      <td>http://www.kwhe.com/</td>
+      <td>kwhe.com</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>LeSea</td>
+      <td>TV station</td>
+      <td>stationindex</td>
+      <td>2018-08-02 14:55:24.612585</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>WGVK</td>
+      <td>MI</td>
+      <td>http://www.wgvu.org/</td>
+      <td>wgvu.org</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Grand Valley State University</td>
+      <td>TV station</td>
+      <td>stationindex</td>
+      <td>2018-08-02 14:55:24.612585</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>KNIC-CD</td>
+      <td>TX</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Univision</td>
+      <td>TV station</td>
+      <td>stationindex</td>
+      <td>2018-08-02 14:55:24.612585</td>
+    </tr>
+  </tbody>
+</table>
+
+You can also browse the dataset on [Google Sheets](https://docs.google.com/spreadsheets/d/1f3PjT2A7-qY0SHcDW30Bc_FXYC_7RxnZfCKyXpoWeuY/edit?usp=sharing)<br>
+Or look at the raw dataset on [Github](https://github.com/yinleon/LocalNewsDataset/blob/master/data/local_news_dataset_2018.csv)<br>
+Or just browse the Jupyter Notebook's [tech specs](https://nbviewer.jupyter.org/github/yinleon/LocalNewsDataset/blob/master/nbs/local_news_dataset.ipynb?flush_cache=true#local_news_dataset_2018).
 
 
 ## How is this Repo Organized?
@@ -33,3 +98,14 @@ Why? Certain city-level publications are subdomains of larger state-level sites.
 
 ## Acknowledgements
 I'd like to acknowledge the work of the people behind usnpl.com and stationindex.com for compiling lists of local media outlets. Andreu Casas and Gregory Eady provided invaluable comments to improve this dataset for public release. I am funded and supported by the SMaPP Lab at NYU, thank you Josh Tucker, Jonathan Nagler, Richard Bonneau and my collegue Nicole Baram.
+
+## Citation
+If this dataset is helpful to you please cite it as:
+```
+@misc{Yin:2018
+author = {Leon Yin},
+title = {Local News Dataset},
+year = {2018}
+howpublished= {\url{https://github.com/yinleon/LocalNewsDataset}} 
+
+```
