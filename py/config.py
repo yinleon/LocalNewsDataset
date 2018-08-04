@@ -141,7 +141,7 @@ city_state = {
     'Portland' : 'OR',
     'Indianapolis' : 'IN',
     'Hartford' :'CT',
-    'Kansas City' :'KS',
+    'Kansas City' :'MO',
     'Salt Lake City' : 'UT',
     'Milwaukee' : 'WI',
     'Waterbury' : 'CT',

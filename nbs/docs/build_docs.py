@@ -6,16 +6,16 @@ from IPython.core.display import HTML, display, Markdown, Latex
 # common column definitions
 website = 'The website of the media outlet exactly as we found it online.'
 source = 'Where was this record scraped from?'
-collection_date = 'when was this record collected?'
-state = 'The two letter state abbreviation of the media outlet.'
+collection_date = 'When was this record collected?'
+state = 'The two letter state abbreviation the media outlet is located in.'
 owner = 'The corporate owner of the station.'
 facebook = "The URL to the media outlet's Facebook presence."
 youtube = "The URL to the media outlet's YouTube presence."
 twitter_name = "The Twitter screen name of the news outlet."
 twitter_url = "The URL to the Twitter screen name of the news outlet."
-city = 'The name of the city that the TV station broadcasts from.'
-station_name= 'The name of the TV station I.E. ("WGBH").'
-network = 'The franchise or brand name that the station belongs to IE Fox'
+city = 'The name of the city that the TV station is located in.'
+station_name= 'The name of the TV station IE "WGBH".'
+network = 'The franchise or brand name that the station belongs to IE "Fox"'
 google = "The URL to the media outlet's Google Plus presence."
 
 
@@ -119,7 +119,7 @@ station_index_docs = {
         'id' : 'The human-recognizable name for the TV station.', 
         'owner' : owner, 
         'state' : state, 
-        'station_info' : 'Typically related to the frequency of the transmission', 
+        'station_info' : 'Related to the frequency of the transmission and technical specs', 
         'station' : station_name, 
         'subchannels' : 'Alternative names for the TV station', 
         'website' : website, 
@@ -250,7 +250,8 @@ def chloropleth():
     based off this code:
     https://plot.ly/pandas/choropleth-maps/
     '''
-    display(Markdown('Below is an interactive [Plot.ly](https://plot.ly) chloropleth map of state-level representation in this dataset. Scroll over each state to get a list of the top mediums and owners.'))
+    display(Markdown('Below is an interactive [Plot.ly](https://plot.ly) chloropleth map of state-level representation in this dataset. Scroll over each state to get a counts (num stations) of the top mediums and owners.'))
+    
     df = pd.read_csv(output_docs['file'])
     
     scl = [# Let first 10% (0.1) of the values have color rgb(0, 0, 0)
