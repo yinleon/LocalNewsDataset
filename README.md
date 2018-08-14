@@ -1,17 +1,19 @@
-# LOCAL NEWS OUTLET DATASET
+# Local News Dataset 2018
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1345145.svg)](https://doi.org/10.5281/zenodo.1345145)
+
 By Leon Yin<br>
-On 2018-05-31
+On 2018-08-14
 
 ## Introduction
 This dataset is a machine-readible directory of state-level newspapers, tv stations and magazines. In addition to basic information such as the name of the outlet and state it is located in, all available information regarding web presence, social media (twitter, youtube, facebook) and their owners is scraped, too.
 
 The sources of this dataset are [usnpl.com](www.usnpl.com)-- newspapers and magazines by state, [stationindex.com](www.stationindex.com) -- tv stations by state and by owner, and homepages of the media corporations [Meredith](http://www.meredith.com/local-media/broadcast-and-digital), [Sinclair](http://sbgi.net/tv-channels/), [Nexstar](https://www.nexstar.tv/stations/), [Tribune](http://www.tribunemedia.com/our-brands/) and [Hearst](http://www.hearst.com/broadcasting/our-markets).
 
-This dataset was inspired by Propublica's [Congress API](https://projects.propublica.org/api-docs/congress-api/). I hope that this dataset will serve a similar purpose as a starting point for research and applications, as well as a bridge between datasets from social media, news articles and online communities.
+This dataset was inspired by ProPublica's [Congress API](https://projects.propublica.org/api-docs/congress-api/). I hope that this dataset will serve a similar purpose as a starting point for research and applications, as well as a bridge between datasets from social media, news articles and online communities.
 
 While you use this dataset, if you see irregularities, questionable entries, or missing outlets please [submit an issue](https://github.com/yinleon/LocalNewsDataset/issues/new) on Github or contact me on [Twitter](https://twitter.com/LeonYin). I'd love to hear how this dataset is put to work 
 
-Happy hunting xo
+Happy hunting
 
 For an indepth [introduction](https://nbviewer.jupyter.org/github/yinleon/LocalNewsDataset/blob/master/nbs/local_news_dataset.ipynb?flush_cache=true#intro), [specs](https://nbviewer.jupyter.org/github/yinleon/LocalNewsDataset/blob/master/nbs/local_news_dataset.ipynb?flush_cache=true#specs), [data sheet](https://nbviewer.jupyter.org/github/yinleon/LocalNewsDataset/blob/master/nbs/local_news_dataset.ipynb?flush_cache=true#datasheet), and [quickstart](https://nbviewer.jupyter.org/github/yinleon/LocalNewsDataset/blob/master/nbs/local_news_dataset.ipynb?flush_cache=true#use) check out this [Jupyter Notebook](https://nbviewer.jupyter.org/github/yinleon/LocalNewsDataset/blob/master/nbs/local_news_dataset.ipynb?flush_cache=true#datasheet) in `nbs/local_news_dataset.ipynb`.
 
@@ -102,10 +104,13 @@ I'd like to acknowledge the work of the people behind usnpl.com and stationindex
 ## Citation
 If this dataset is helpful to you please cite it as:
 ```
-@misc{Yin:2018
-author = {Leon Yin},
-title = {Local News Dataset},
-year = {2018}
-howpublished= {\url{https://github.com/yinleon/LocalNewsDataset}} 
+@misc{leon_yin_2018_1345145,
+  author       = {Leon Yin},
+  title        = {Local News Dataset},
+  month        = aug,
+  year         = 2018,
+  doi          = {10.5281/zenodo.1345145},
+  url          = {https://doi.org/10.5281/zenodo.1345145}
+}
 
 ```
