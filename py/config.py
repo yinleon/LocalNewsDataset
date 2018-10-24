@@ -160,3 +160,7 @@ city_state = {
     'Fort Smith' : "AK",
     'America' : 'National'
 }
+
+not_actually_local = [
+    'variety.com', 'investors.com', 'hollywoodreporter.com', 'bizjournals.com'
+]

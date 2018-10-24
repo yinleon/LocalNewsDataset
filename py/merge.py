@@ -115,6 +115,8 @@ def merge_tv_and_media():
     df_state['domain'] = df_state['website'].apply(get_domain)
     df_state['twitter'] = df_state['twitter'].apply(process_twitter_name)
     df_state['state'] = df_state['state'].str.upper()
+    df_state = df_state[~df_state.domain.isin(not_actually_local)]
+
     
     # write the results to a csv
     df_state[cols_final].to_csv(local_news_dataset_file.replace('.csv', '_with_national.csv'), index=False)
