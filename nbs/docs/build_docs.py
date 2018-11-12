@@ -238,7 +238,7 @@ def generate_intro():
     table_of_contents = '### Intermediates \n'
     for dataset in docs:
         filename = os.path.basename(dataset['file']).split('.')[0]
-        table_of_contents += f" - [{filename}.tsv](#filename)\n"
+        table_of_contents += f" - [{filename}.tsv](#{filename})\n"
     table_of_contents += end_of_table_of_contents
     display(Markdown(table_of_contents))    
     display(Markdown('<hr>'))
@@ -332,7 +332,7 @@ def chloropleth():
                 )
 
     fig = dict( data=data, layout=layout )
-    display(py.iplot(fig, filename='d3-cloropleth-map' ))
+    display(py.iplot(fig, filename='local-news-dataset' ))
  
 
 def summary_stats():

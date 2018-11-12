@@ -92,14 +92,28 @@ The `nbs` directory has exmaples of how to use this dataset. The dataset was cre
 In addition to the state and name of each media outlet, I also collect their web domain and social (Twitter, Facebook, Youtube) IDs where available.
 
 ## Methodology
-Several websites are [scraped]() using the requests and beautifulsoup Python packages. The column names are then normalized, and [merged]().
+Several websites are [scraped](https://github.com/yinleon/LocalNewsDataset/blob/master/py/download_data.py) using the requests and beautifulsoup Python packages. The column names are then normalized, and [merged](https://github.com/yinleon/LocalNewsDataset/blob/master/py/merge.py).
 
 ## Gotchas
 There can be several entires with the same domain.<br>
 Why? Certain city-level publications are subdomains of larger state-level sites.
+There is a preprocessed version for domain-level analysis here: `https://raw.githubusercontent.com/yinleon/LocalNewsDataset/master/data/local_news_dataset_2018_for_domain_analysis.csv`
+
+## Using the Dataset
+The dataset can be downloaded from the raw GitHub file using the website, or from the commandline:
+```
+wget https://raw.githubusercontent.com/yinleon/LocalNewsDataset/master/data/local_news_dataset_2018.csv
+```
+The dataset can also be loaded directly into a Pandas DataFrame.
+```
+import pandas as pd
+
+url = 'https://raw.githubusercontent.com/yinleon/LocalNewsDataset/master/data/local_news_dataset_2018.csv'
+df_local_news = pd.read_csv(url)
+```
 
 ## Acknowledgements
-I'd like to acknowledge the work of the people behind usnpl.com and stationindex.com for compiling lists of local media outlets. Andreu Casas and Gregory Eady provided invaluable comments to improve this dataset for public release. I am funded and supported by the SMaPP Lab at NYU, thank you Josh Tucker, Jonathan Nagler, Richard Bonneau and my collegue Nicole Baram.
+I'd like to acknowledge the work of the people behind usnpl.com and stationindex.com for compiling lists of local media outlets. Andreu Casas and Gregory Eady provided invaluable comments to improve this dataset for public release.  Leon Yin is a member of the SMaPP Lab at NYU. Thank you Josh Tucker, Jonathan Nagler, Richard Bonneau and my collegue Nicole Baram.
 
 ## Citation
 If this dataset is helpful to you please cite it as:
