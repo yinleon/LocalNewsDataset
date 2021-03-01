@@ -1,6 +1,6 @@
 tqdm
 ipython
-plotly
+chart-studio
 runtimestamp
 pandas
 urlexpander
