@@ -1,6 +1,6 @@
 import os
 import pandas as pd
-import plotly.plotly as py
+import chart_studio.plotly as py
 from IPython.core.display import HTML, display, Markdown, Latex
 
 # common column definitions
