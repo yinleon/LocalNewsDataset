@@ -7,7 +7,7 @@ On 2018-08-14
 ## Introduction
 This dataset is a machine-readible directory of state-level newspapers, tv stations and magazines. In addition to basic information such as the name of the outlet and state it is located in, all available information regarding web presence, social media (twitter, youtube, facebook) and their owners is scraped, too.
 
-The sources of this dataset are [usnpl.com](www.usnpl.com)-- newspapers and magazines by state, [stationindex.com](www.stationindex.com) -- tv stations by state and by owner, and homepages of the media corporations [Meredith](http://www.meredith.com/local-media/broadcast-and-digital), [Sinclair](http://sbgi.net/tv-channels/), [Nexstar](https://www.nexstar.tv/stations/), [Tribune](http://www.tribunemedia.com/our-brands/) and [Hearst](http://www.hearst.com/broadcasting/our-markets).
+The sources of this dataset are [usnpl.com](https://www.usnpl.com)-- newspapers and magazines by state, [stationindex.com](https://www.stationindex.com) -- tv stations by state and by owner, and homepages of the media corporations [Meredith](http://www.meredith.com/local-media/broadcast-and-digital), [Sinclair](http://sbgi.net/tv-channels/), [Nexstar](https://www.nexstar.tv/stations/), [Tribune](http://www.tribunemedia.com/our-brands/) and [Hearst](http://www.hearst.com/broadcasting/our-markets).
 
 This dataset was inspired by ProPublica's [Congress API](https://projects.propublica.org/api-docs/congress-api/). I hope that this dataset will serve a similar purpose as a starting point for research and applications, as well as a bridge between datasets from social media, news articles and online communities.
 
